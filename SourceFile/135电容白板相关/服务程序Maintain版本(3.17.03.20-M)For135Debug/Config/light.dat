@@ -1,0 +1,14 @@
+[Board]
+sendmaxvalue=2500
+sendminvalue=500
+sendminangle=14
+recvmaxvalue=2500
+recvminvalue=400
+recvminangle=14
+[Screen]
+sendmaxvalue=1500
+sendminvalue=500
+sendminangle=14
+recvmaxvalue=1000
+recvminvalue=350
+recvminangle=14

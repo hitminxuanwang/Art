@@ -1,0 +1,2411 @@
+[1]
+subtype=I685_I985_I382_I986		//子型号
+supportlist=HV-I685 HV-I985 HV-I382 HV-I986 QWB200PS_H QWB200BW_H01 JectorFB782H QWB200BW_H QWB200BW_H02 Razr_i_78Q IR30-82S QWB200PS_H01 JectorD78i QWB200BW_H00 HBM-077 HBM-077E HaierHV-I685 HHT_IR32-82S 78_GPB-PS_1 R5-800 QWB200PS_H00 JectorFB-480 QWB200BW_H03 78_GPB-PS_4 IR32-82S IR32-82S_1 IR32-82S_1P IPB-8200M QWB88WSBWH00 QWB88WSBWH01 IR31-82S 78_GPB-PS_2 IR30-82S_K HV-I382_Y1 QWB200-BWH01 Ideamax_IR30-82S GDS-I082 SWB200PS_H01 IR32-82S_L HV-I382_A IR32-82S_V RAZR_i-78e_H_Q GQWB200BW_H02 QWB200_H01 HV-I382_Y IR80-82_P IR80-82 RB007 WB045 IR30-82S_A IR31-82S_P Razr_i-80Qs TM81 MTC-800 IRB1-82QW HV-I382_S1 HV-I382_S2 QWB379 HV-I382_V QWB379 IRB1-82QC QWB200-BWH04 FB-480_T HV-K3080 HV-I382_H QWB382-KZ IR30-82_PK DT-I8200 IR30-82_SK IR30-82_SP	//支持白板型号列表
+totalrecvnum=20			//接收灯总数
+totalsendnum=544		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=159				//底部发射管结束编号
+rightstart=160			//右边发射管起始编号
+rightend=271				//右边发射管结束编号
+topstart=272				//顶部发射管起始编号
+topend=431					//顶部发射管结束编号
+leftstart=432				//左边发射管起始编号
+leftend=543					//左边发射管结束编号
+
+bottomrecvnum=6			//底部接收灯数目
+rightrecvnum=4			//右边接收灯数目
+toprecvnum=6				//顶部接收灯数目
+leftrecvnum=4				//左边接收灯数目
+
+bottompcbnum=6			//底部PCB数目
+rightpcbnum=4				//右边PCB数目
+toppcbnum=6					//顶部PCB数目
+leftpcbnum=4				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=15			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=16		//底边第二个PCB对应发射管起始编号
+bottompcbend2=47			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=48		//底边第三个PCB对应发射管起始编号
+bottompcbend3=79			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=80		//底边第四个PCB对应发射管起始编号
+bottompcbend4=111			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=112		//底边第五个PCB对应发射管起始编号
+bottompcbend5=143			//底边第五个PCB对应发射管结束编号
+bottompcbstart6=144		//底边第六个PCB对应发射管起始编号
+bottompcbend6=159			//底边第六个PCB对应发射管结束编号
+
+rightpcbstart1=160		//右边第一个PCB对应发射管起始编号
+rightpcbend1=177			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=178		//右边第二个PCB对应发射管起始编号
+rightpcbend2=215			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=216		//右边第三个PCB对应发射管起始编号
+rightpcbend3=253			//右边第三个PCB对应发射管结束编号
+rightpcbstart4=254		//右边第四个PCB对应发射管起始编号
+rightpcbend4=271			//右边第四个PCB对应发射管结束编号
+
+toppcbstart1=272			//顶部第一个PCB对应发射管起始编号
+toppcbend1=287				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=288			//顶部第二个PCB对应发射管起始编号
+toppcbend2=319				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=320			//顶部第三个PCB对应发射管起始编号
+toppcbend3=351				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=352			//顶部第四个PCB对应发射管起始编号
+toppcbend4=383				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=384			//顶部第五个PCB对应发射管起始编号
+toppcbend5=415				//顶部第五个PCB对应发射管结束编号
+toppcbstart6=416			//顶部第六个PCB对应发射管起始编号
+toppcbend6=431				//顶部第六个PCB对应发射管结束编号
+
+leftpcbstart1=432			//左边第一个PCB对应发射管起始编号
+leftpcbend1=449				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=450			//左边第二个PCB对应发射管起始编号
+leftpcbend2=487				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=488			//左边第三个PCB对应发射管起始编号
+leftpcbend3=525				//左边第三个PCB对应发射管结束编号
+leftpcbstart4=526			//左边第四个PCB对应发射管起始编号
+leftpcbend4=543				//左边第四个PCB对应发射管结束编号
+
+startid1=400					//接收管1对应发射管起始编号
+endid1=431						//接收管1对应发射管结束编号
+
+startid2=368					//接收管2对应发射管起始编号
+endid2=431						//接收管2对应发射管结束编号
+
+startid3=336					//接收管3对应发射管起始编号
+endid3=399						//接收管3对应发射管结束编号
+
+startid4=304					//接收管4对应发射管起始编号
+endid4=367						//接收管4对应发射管结束编号
+
+startid5=272					//接收管5对应发射管起始编号
+endid5=335						//接收管5对应发射管结束编号
+
+startid6=272					//接收管6对应发射管起始编号
+endid6=303						//接收管6对应发射管结束编号
+
+startid7=507					//接收管7对应发射管起始编号
+endid7=543						//接收管7对应发射管结束编号
+
+startid8=469					//接收管8对应发射管起始编号
+endid8=543						//接收管8对应发射管结束编号
+
+startid9=432					//接收管9对应发射管起始编号
+endid9=506						//接收管9对应发射管结束编号
+
+startid10=432					//接收管10对应发射管起始编号
+endid10=468						//接收管10对应发射管结束编号
+
+startid11=128					//接收管11对应发射管起始编号
+endid11=159						//接收管11对应发射管结束编号
+
+startid12=96					//接收管12对应发射管起始编号
+endid12=159						//接收管12对应发射管结束编号
+
+startid13=64					//接收管13对应发射管起始编号
+endid13=127						//接收管13对应发射管结束编号
+
+startid14=32					//接收管14对应发射管起始编号
+endid14=95						//接收管14对应发射管结束编号
+
+startid15=0						//接收管15对应发射管起始编号
+endid15=63						//接收管15对应发射管结束编号
+
+startid16=0						//接收管16对应发射管起始编号
+endid16=31						//接收管16对应发射管结束编号
+
+startid17=235					//接收管17对应发射管起始编号
+endid17=271						//接收管17对应发射管结束编号
+
+startid18=197					//接收管18对应发射管起始编号
+endid18=271						//接收管18对应发射管结束编号
+
+startid19=160					//接收管19对应发射管起始编号
+endid19=234						//接收管19对应发射管结束编号
+
+startid20=160					//接收管20对应发射管起始编号
+endid20=196						//接收管20对应发射管结束编号
+
+[2]
+subtype=I280			//子型号
+supportlist=HV-I280	//支持白板型号列表
+totalrecvnum=20		//接收灯总数
+totalsendnum=502	//发射灯总数
+mirroring=1				//镜像关系
+
+bottomstart=0			//底部发射管起始编号
+bottomend=154			//底部发射管结束编号
+rightstart=155		//右边发射管起始编号
+rightend=250			//右边发射管结束编号
+topstart=251			//顶部发射管起始编号
+topend=405				//顶部发射管结束编号
+leftstart=406			//左边发射管起始编号
+leftend=501				//左边发射管结束编号
+
+bottomrecvnum=6		//底部接收灯数目
+rightrecvnum=4		//右边接收灯数目
+toprecvnum=6			//顶部接收灯数目
+leftrecvnum=4			//左边接收灯数目
+
+bottompcbnum=5		//底部PCB数目
+rightpcbnum=3			//右边PCB数目
+toppcbnum=5				//顶部PCB数目
+leftpcbnum=3			//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=30			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=31		//底边第二个PCB对应发射管起始编号
+bottompcbend2=61			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=62		//底边第三个PCB对应发射管起始编号
+bottompcbend3=92			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=93		//底边第四个PCB对应发射管起始编号
+bottompcbend4=123			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=124		//底边第五个PCB对应发射管起始编号
+bottompcbend5=154			//底边第五个PCB对应发射管结束编号
+
+rightpcbstart1=155		//右边第一个PCB对应发射管起始编号
+rightpcbend1=186			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=187		//右边第二个PCB对应发射管起始编号
+rightpcbend2=218			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=219		//右边第三个PCB对应发射管起始编号
+rightpcbend3=250			//右边第三个PCB对应发射管结束编号
+
+toppcbstart1=251			//顶部第一个PCB对应发射管起始编号
+toppcbend1=281				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=282			//顶部第二个PCB对应发射管起始编号
+toppcbend2=312				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=313			//顶部第三个PCB对应发射管起始编号
+toppcbend3=343				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=344			//顶部第四个PCB对应发射管起始编号
+toppcbend4=374				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=375			//顶部第五个PCB对应发射管起始编号
+toppcbend5=405				//顶部第五个PCB对应发射管结束编号
+
+leftpcbstart1=406			//左边第一个PCB对应发射管起始编号
+leftpcbend1=437				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=438			//左边第二个PCB对应发射管起始编号
+leftpcbend2=469				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=470			//左边第三个PCB对应发射管起始编号
+leftpcbend3=501				//左边第三个PCB对应发射管结束编号
+
+startid1=375					//接收管1对应发射管起始编号
+endid1=405						//接收管1对应发射管结束编号
+
+startid2=344					//接收管2对应发射管起始编号
+endid2=405						//接收管2对应发射管结束编号
+
+startid3=313					//接收管3对应发射管起始编号
+endid3=374						//接收管3对应发射管结束编号
+
+startid4=282					//接收管4对应发射管起始编号
+endid4=343						//接收管4对应发射管结束编号
+
+startid5=251					//接收管5对应发射管起始编号
+endid5=312						//接收管5对应发射管结束编号
+
+startid6=251					//接收管6对应发射管起始编号
+endid6=281						//接收管6对应发射管结束编号
+
+startid7=470					//接收管7对应发射管起始编号
+endid7=501						//接收管7对应发射管结束编号
+
+startid8=438					//接收管8对应发射管起始编号
+endid8=501						//接收管8对应发射管结束编号
+
+startid9=406					//接收管9对应发射管起始编号
+endid9=469						//接收管9对应发射管结束编号
+
+startid10=406					//接收管10对应发射管起始编号
+endid10=437						//接收管10对应发射管结束编号
+
+startid11=124					//接收管11对应发射管起始编号
+endid11=154						//接收管11对应发射管结束编号
+
+startid12=93					//接收管12对应发射管起始编号
+endid12=154						//接收管12对应发射管结束编号
+
+startid13=62					//接收管13对应发射管起始编号
+endid13=123						//接收管13对应发射管结束编号
+
+startid14=31					//接收管14对应发射管起始编号
+endid14=92						//接收管14对应发射管结束编号
+
+startid15=0						//接收管15对应发射管起始编号
+endid15=61						//接收管15对应发射管结束编号
+
+startid16=0						//接收管16对应发射管起始编号
+endid16=30						//接收管16对应发射管结束编号
+
+startid17=219					//接收管17对应发射管起始编号
+endid17=250						//接收管17对应发射管结束编号
+
+startid18=187					//接收管18对应发射管起始编号
+endid18=250						//接收管18对应发射管结束编号
+
+startid19=155					//接收管19对应发射管起始编号
+endid19=218						//接收管19对应发射管结束编号
+
+startid20=155					//接收管20对应发射管起始编号
+endid20=186						//接收管20对应发射管结束编号
+
+[3]
+subtype=I996				//子型号
+supportlist=HV-I996 Razr_i_88Q HBM-088 IR32-96S Razr_i-88Q_L IR32-96S_4P Razr_i-90Q IR80-96_Y Razr_i-88Qs IR80-96_P	//支持白板型号列表
+totalrecvnum=22			//接收灯总数
+totalsendnum=624		//发射灯总数
+mirroring=1					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=179				//底部发射管结束编号
+rightstart=180			//右边发射管起始编号
+rightend=311				//右边发射管结束编号
+topstart=312				//顶部发射管起始编号
+topend=491					//顶部发射管结束编号
+leftstart=492				//左边发射管起始编号
+leftend=623					//左边发射管结束编号
+
+bottomrecvnum=7			//底部接收灯数目
+rightrecvnum=4			//右边接收灯数目
+toprecvnum=7				//顶部接收灯数目
+leftrecvnum=4				//左边接收灯数目
+
+bottompcbnum=6			//底部PCB数目
+rightpcbnum=3				//右边PCB数目
+toppcbnum=6					//顶部PCB数目
+leftpcbnum=3				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=29			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=30		//底边第二个PCB对应发射管起始编号
+bottompcbend2=59			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=60		//底边第三个PCB对应发射管起始编号
+bottompcbend3=89			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=90		//底边第四个PCB对应发射管起始编号
+bottompcbend4=119			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=120		//底边第五个PCB对应发射管起始编号
+bottompcbend5=149			//底边第五个PCB对应发射管结束编号
+bottompcbstart6=150		//底边第六个PCB对应发射管起始编号
+bottompcbend6=179			//底边第六个PCB对应发射管结束编号
+
+rightpcbstart1=180		//右边第一个PCB对应发射管起始编号
+rightpcbend1=223			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=224		//右边第二个PCB对应发射管起始编号
+rightpcbend2=267			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=268		//右边第三个PCB对应发射管起始编号
+rightpcbend3=311			//右边第三个PCB对应发射管结束编号
+
+toppcbstart1=312			//顶部第一个PCB对应发射管起始编号
+toppcbend1=341				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=342			//顶部第二个PCB对应发射管起始编号
+toppcbend2=371				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=372			//顶部第三个PCB对应发射管起始编号
+toppcbend3=401				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=402			//顶部第四个PCB对应发射管起始编号
+toppcbend4=431				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=432			//顶部第五个PCB对应发射管起始编号
+toppcbend5=461				//顶部第五个PCB对应发射管结束编号
+toppcbstart6=462			//顶部第六个PCB对应发射管起始编号
+toppcbend6=491				//顶部第六个PCB对应发射管结束编号
+
+leftpcbstart1=492			//左边第一个PCB对应发射管起始编号
+leftpcbend1=535				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=536			//左边第二个PCB对应发射管起始编号
+leftpcbend2=579				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=580			//左边第三个PCB对应发射管起始编号
+leftpcbend3=623				//左边第三个PCB对应发射管结束编号
+
+startid1=462					//接收管1对应发射管起始编号
+endid1=491						//接收管1对应发射管结束编号
+
+startid2=432					//接收管2对应发射管起始编号
+endid2=491						//接收管2对应发射管结束编号
+
+startid3=402					//接收管3对应发射管起始编号
+endid3=461						//接收管3对应发射管结束编号
+
+startid4=372					//接收管4对应发射管起始编号
+endid4=431						//接收管4对应发射管结束编号
+
+startid5=342					//接收管5对应发射管起始编号
+endid5=401						//接收管5对应发射管结束编号
+
+startid6=312					//接收管6对应发射管起始编号
+endid6=371						//接收管6对应发射管结束编号
+
+startid7=312					//接收管7对应发射管起始编号
+endid7=341						//接收管7对应发射管结束编号
+
+startid8=580					//接收管8对应发射管起始编号
+endid8=623						//接收管8对应发射管结束编号
+
+startid9=536					//接收管9对应发射管起始编号
+endid9=623						//接收管9对应发射管结束编号
+
+startid10=492					//接收管10对应发射管起始编号
+endid10=579						//接收管10对应发射管结束编号
+
+startid11=492					//接收管11对应发射管起始编号
+endid11=535						//接收管11对应发射管结束编号
+
+startid12=150					//接收管12对应发射管起始编号
+endid12=179						//接收管12对应发射管结束编号
+
+startid13=120					//接收管13对应发射管起始编号
+endid13=179						//接收管13对应发射管结束编号
+
+startid14=90					//接收管14对应发射管起始编号
+endid14=149						//接收管14对应发射管结束编号
+
+startid15=60						//接收管15对应发射管起始编号
+endid15=119						//接收管15对应发射管结束编号
+
+startid16=30						//接收管16对应发射管起始编号
+endid16=89						//接收管16对应发射管结束编号
+
+startid17=0					//接收管17对应发射管起始编号
+endid17=59						//接收管17对应发射管结束编号
+
+startid18=0					//接收管18对应发射管起始编号
+endid18=29						//接收管18对应发射管结束编号
+
+startid19=268					//接收管19对应发射管起始编号
+endid19=311						//接收管19对应发射管结束编号
+
+startid20=224					//接收管20对应发射管起始编号
+endid20=311						//接收管20对应发射管结束编号
+
+startid21=180					//接收管21对应发射管起始编号
+endid21=267						//接收管21对应发射管结束编号
+
+startid22=180					//接收管22对应发射管起始编号
+endid22=223						//接收管22对应发射管结束编号
+
+[4]
+subtype=I290W		//子型号
+supportlist=HV-I290W IR22-90S_1 IR22-90S_L	//支持白板型号列表
+totalrecvnum=20			//接收灯总数
+totalsendnum=564		//发射灯总数
+mirroring=1					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=185				//底部发射管结束编号
+rightstart=186			//右边发射管起始编号
+rightend=281				//右边发射管结束编号
+topstart=282				//顶部发射管起始编号
+topend=467					//顶部发射管结束编号
+leftstart=468				//左边发射管起始编号
+leftend=563					//左边发射管结束编号
+
+bottomrecvnum=7			//底部接收灯数目
+rightrecvnum=3			//右边接收灯数目
+toprecvnum=7				//顶部接收灯数目
+leftrecvnum=3				//左边接收灯数目
+
+bottompcbnum=6			//底部PCB数目
+rightpcbnum=2				//右边PCB数目
+toppcbnum=6					//顶部PCB数目
+leftpcbnum=2				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=30			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=31		//底边第二个PCB对应发射管起始编号
+bottompcbend2=61			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=62		//底边第三个PCB对应发射管起始编号
+bottompcbend3=92			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=93		//底边第四个PCB对应发射管起始编号
+bottompcbend4=123			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=124		//底边第五个PCB对应发射管起始编号
+bottompcbend5=154			//底边第五个PCB对应发射管结束编号
+bottompcbstart6=155		//底边第六个PCB对应发射管起始编号
+bottompcbend6=185			//底边第六个PCB对应发射管结束编号
+
+rightpcbstart1=186		//右边第一个PCB对应发射管起始编号
+rightpcbend1=233			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=234		//右边第二个PCB对应发射管起始编号
+rightpcbend2=281			//右边第二个PCB对应发射管结束编号
+
+toppcbstart1=282			//顶部第一个PCB对应发射管起始编号
+toppcbend1=312				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=313			//顶部第二个PCB对应发射管起始编号
+toppcbend2=343				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=344			//顶部第三个PCB对应发射管起始编号
+toppcbend3=374				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=375			//顶部第四个PCB对应发射管起始编号
+toppcbend4=405				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=406			//顶部第五个PCB对应发射管起始编号
+toppcbend5=436				//顶部第五个PCB对应发射管结束编号
+toppcbstart6=437			//顶部第六个PCB对应发射管起始编号
+toppcbend6=467				//顶部第六个PCB对应发射管结束编号
+
+leftpcbstart1=468			//左边第一个PCB对应发射管起始编号
+leftpcbend1=515				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=516			//左边第二个PCB对应发射管起始编号
+leftpcbend2=563				//左边第二个PCB对应发射管结束编号
+
+startid1=437					//接收管1对应发射管起始编号
+endid1=467						//接收管1对应发射管结束编号
+
+startid2=406					//接收管2对应发射管起始编号
+endid2=467						//接收管2对应发射管结束编号
+
+startid3=375					//接收管3对应发射管起始编号
+endid3=436						//接收管3对应发射管结束编号
+
+startid4=344					//接收管4对应发射管起始编号
+endid4=405						//接收管4对应发射管结束编号
+
+startid5=313					//接收管5对应发射管起始编号
+endid5=374						//接收管5对应发射管结束编号
+
+startid6=282					//接收管6对应发射管起始编号
+endid6=343						//接收管6对应发射管结束编号
+
+startid7=282					//接收管7对应发射管起始编号
+endid7=312						//接收管7对应发射管结束编号
+
+startid8=516					//接收管8对应发射管起始编号
+endid8=563						//接收管8对应发射管结束编号
+
+startid9=468					//接收管9对应发射管起始编号
+endid9=563						//接收管9对应发射管结束编号
+
+startid10=468					//接收管10对应发射管起始编号
+endid10=515						//接收管10对应发射管结束编号
+
+startid11=155					//接收管11对应发射管起始编号
+endid11=185						//接收管11对应发射管结束编号
+
+startid12=124					//接收管12对应发射管起始编号
+endid12=185						//接收管12对应发射管结束编号
+
+startid13=93					//接收管13对应发射管起始编号
+endid13=154						//接收管13对应发射管结束编号
+
+startid14=62					//接收管14对应发射管起始编号
+endid14=123						//接收管14对应发射管结束编号
+
+startid15=31						//接收管15对应发射管起始编号
+endid15=92						//接收管15对应发射管结束编号
+
+startid16=0						//接收管16对应发射管起始编号
+endid16=61						//接收管16对应发射管结束编号
+
+startid17=0					//接收管17对应发射管起始编号
+endid17=30						//接收管17对应发射管结束编号
+
+startid18=234					//接收管18对应发射管起始编号
+endid18=281						//接收管18对应发射管结束编号
+
+startid19=186					//接收管19对应发射管起始编号
+endid19=281						//接收管19对应发射管结束编号
+
+startid20=186					//接收管20对应发射管起始编号
+endid20=233						//接收管20对应发射管结束编号
+
+[5]
+subtype=I9100W				//子型号
+supportlist=HV-I9100W QWB88WSPSH00 QWB88WSPSH01 IR32-100_W IR80-100_P MTC-1000	//支持白板型号列表
+totalrecvnum=22			//接收灯总数
+totalsendnum=612		//发射灯总数
+mirroring=1					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=191				//底部发射管结束编号
+rightstart=192			//右边发射管起始编号
+rightend=305				//右边发射管结束编号
+topstart=306				//顶部发射管起始编号
+topend=497					//顶部发射管结束编号
+leftstart=498				//左边发射管起始编号
+leftend=611					//左边发射管结束编号
+
+bottomrecvnum=7			//底部接收灯数目
+rightrecvnum=4			//右边接收灯数目
+toprecvnum=7				//顶部接收灯数目
+leftrecvnum=4				//左边接收灯数目
+
+bottompcbnum=6			//底部PCB数目
+rightpcbnum=3				//右边PCB数目
+toppcbnum=6					//顶部PCB数目
+leftpcbnum=3				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=31			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=32		//底边第二个PCB对应发射管起始编号
+bottompcbend2=63			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=64		//底边第三个PCB对应发射管起始编号
+bottompcbend3=95			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=96		//底边第四个PCB对应发射管起始编号
+bottompcbend4=127			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=128		//底边第五个PCB对应发射管起始编号
+bottompcbend5=159			//底边第五个PCB对应发射管结束编号
+bottompcbstart6=160		//底边第六个PCB对应发射管起始编号
+bottompcbend6=191			//底边第六个PCB对应发射管结束编号
+
+rightpcbstart1=192		//右边第一个PCB对应发射管起始编号
+rightpcbend1=229			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=230		//右边第二个PCB对应发射管起始编号
+rightpcbend2=267			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=268		//右边第三个PCB对应发射管起始编号
+rightpcbend3=305			//右边第三个PCB对应发射管结束编号
+
+toppcbstart1=306			//顶部第一个PCB对应发射管起始编号
+toppcbend1=337				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=338			//顶部第二个PCB对应发射管起始编号
+toppcbend2=369				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=370			//顶部第三个PCB对应发射管起始编号
+toppcbend3=401				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=402			//顶部第四个PCB对应发射管起始编号
+toppcbend4=433				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=434			//顶部第五个PCB对应发射管起始编号
+toppcbend5=465				//顶部第五个PCB对应发射管结束编号
+toppcbstart6=466			//顶部第六个PCB对应发射管起始编号
+toppcbend6=497				//顶部第六个PCB对应发射管结束编号
+
+leftpcbstart1=498			//左边第一个PCB对应发射管起始编号
+leftpcbend1=535				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=536			//左边第二个PCB对应发射管起始编号
+leftpcbend2=573				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=574			//左边第三个PCB对应发射管起始编号
+leftpcbend3=611				//左边第三个PCB对应发射管结束编号
+
+startid1=466					//接收管1对应发射管起始编号
+endid1=497						//接收管1对应发射管结束编号
+
+startid2=434					//接收管2对应发射管起始编号
+endid2=497						//接收管2对应发射管结束编号
+
+startid3=402					//接收管3对应发射管起始编号
+endid3=465						//接收管3对应发射管结束编号
+
+startid4=370					//接收管4对应发射管起始编号
+endid4=433						//接收管4对应发射管结束编号
+
+startid5=338					//接收管5对应发射管起始编号
+endid5=401						//接收管5对应发射管结束编号
+
+startid6=306					//接收管6对应发射管起始编号
+endid6=369						//接收管6对应发射管结束编号
+
+startid7=306					//接收管7对应发射管起始编号
+endid7=337						//接收管7对应发射管结束编号
+
+startid8=574					//接收管8对应发射管起始编号
+endid8=611						//接收管8对应发射管结束编号
+
+startid9=536					//接收管9对应发射管起始编号
+endid9=611						//接收管9对应发射管结束编号
+
+startid10=498					//接收管10对应发射管起始编号
+endid10=573						//接收管10对应发射管结束编号
+
+startid11=498					//接收管11对应发射管起始编号
+endid11=535						//接收管11对应发射管结束编号
+
+startid12=160					//接收管12对应发射管起始编号
+endid12=191						//接收管12对应发射管结束编号
+
+startid13=128					//接收管13对应发射管起始编号
+endid13=191						//接收管13对应发射管结束编号
+
+startid14=96					//接收管14对应发射管起始编号
+endid14=159						//接收管14对应发射管结束编号
+
+startid15=64						//接收管15对应发射管起始编号
+endid15=127						//接收管15对应发射管结束编号
+
+startid16=32						//接收管16对应发射管起始编号
+endid16=95						//接收管16对应发射管结束编号
+
+startid17=0					//接收管17对应发射管起始编号
+endid17=63						//接收管17对应发射管结束编号
+
+startid18=0					//接收管18对应发射管起始编号
+endid18=31						//接收管18对应发射管结束编号
+
+startid19=268					//接收管19对应发射管起始编号
+endid19=305						//接收管19对应发射管结束编号
+
+startid20=230					//接收管20对应发射管起始编号
+endid20=305						//接收管20对应发射管结束编号
+
+startid21=192					//接收管21对应发射管起始编号
+endid21=267						//接收管21对应发射管结束编号
+
+startid22=192					//接收管22对应发射管起始编号
+endid22=229						//接收管22对应发射管结束编号
+
+[6]
+subtype=HD-I5510E				//子型号
+supportlist=HD-I5510E	//支持白板型号列表
+totalrecvnum=20			//接收灯总数
+totalsendnum=396		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=125				//底部发射管结束编号
+rightstart=126			//右边发射管起始编号
+rightend=197				//右边发射管结束编号
+topstart=198				//顶部发射管起始编号
+topend=323					//顶部发射管结束编号
+leftstart=324				//左边发射管起始编号
+leftend=395					//左边发射管结束编号
+
+bottomrecvnum=7			//底部接收灯数目
+rightrecvnum=3			//右边接收灯数目
+toprecvnum=7				//顶部接收灯数目
+leftrecvnum=3				//左边接收灯数目
+
+bottompcbnum=6			//底部PCB数目
+rightpcbnum=2				//右边PCB数目
+toppcbnum=6					//顶部PCB数目
+leftpcbnum=2				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=20			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=21		//底边第二个PCB对应发射管起始编号
+bottompcbend2=41			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=42		//底边第三个PCB对应发射管起始编号
+bottompcbend3=62			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=63		//底边第四个PCB对应发射管起始编号
+bottompcbend4=83			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=84		//底边第五个PCB对应发射管起始编号
+bottompcbend5=104			//底边第五个PCB对应发射管结束编号
+bottompcbstart6=105		//底边第六个PCB对应发射管起始编号
+bottompcbend6=125			//底边第六个PCB对应发射管结束编号
+
+rightpcbstart1=126		//右边第一个PCB对应发射管起始编号
+rightpcbend1=161			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=162		//右边第二个PCB对应发射管起始编号
+rightpcbend2=197			//右边第二个PCB对应发射管结束编号
+
+toppcbstart1=198			//顶部第一个PCB对应发射管起始编号
+toppcbend1=218				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=219			//顶部第二个PCB对应发射管起始编号
+toppcbend2=239				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=240			//顶部第三个PCB对应发射管起始编号
+toppcbend3=260				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=261			//顶部第四个PCB对应发射管起始编号
+toppcbend4=281				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=282			//顶部第五个PCB对应发射管起始编号
+toppcbend5=302				//顶部第五个PCB对应发射管结束编号
+toppcbstart6=303			//顶部第六个PCB对应发射管起始编号
+toppcbend6=323				//顶部第六个PCB对应发射管结束编号
+
+leftpcbstart1=324			//左边第一个PCB对应发射管起始编号
+leftpcbend1=359				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=360			//左边第二个PCB对应发射管起始编号
+leftpcbend2=395				//左边第二个PCB对应发射管结束编号
+
+startid1=303					//接收管1对应发射管起始编号
+endid1=323						//接收管1对应发射管结束编号
+
+startid2=282					//接收管2对应发射管起始编号
+endid2=323						//接收管2对应发射管结束编号
+
+startid3=261					//接收管3对应发射管起始编号
+endid3=302						//接收管3对应发射管结束编号
+
+startid4=240					//接收管4对应发射管起始编号
+endid4=281						//接收管4对应发射管结束编号
+
+startid5=219					//接收管5对应发射管起始编号
+endid5=260						//接收管5对应发射管结束编号
+
+startid6=198					//接收管6对应发射管起始编号
+endid6=239						//接收管6对应发射管结束编号
+
+startid7=198					//接收管7对应发射管起始编号
+endid7=218						//接收管7对应发射管结束编号
+
+startid8=360					//接收管8对应发射管起始编号
+endid8=395						//接收管8对应发射管结束编号
+
+startid9=324					//接收管9对应发射管起始编号
+endid9=395						//接收管9对应发射管结束编号
+
+startid10=324					//接收管10对应发射管起始编号
+endid10=359						//接收管10对应发射管结束编号
+
+startid11=105					//接收管11对应发射管起始编号
+endid11=125						//接收管11对应发射管结束编号
+
+startid12=84					//接收管12对应发射管起始编号
+endid12=125						//接收管12对应发射管结束编号
+
+startid13=63					//接收管13对应发射管起始编号
+endid13=104						//接收管13对应发射管结束编号
+
+startid14=42					//接收管14对应发射管起始编号
+endid14=83						//接收管14对应发射管结束编号
+
+startid15=21						//接收管15对应发射管起始编号
+endid15=62						//接收管15对应发射管结束编号
+
+startid16=0						//接收管16对应发射管起始编号
+endid16=41						//接收管16对应发射管结束编号
+
+startid17=0					//接收管17对应发射管起始编号
+endid17=20						//接收管17对应发射管结束编号
+
+startid18=162					//接收管18对应发射管起始编号
+endid18=197						//接收管18对应发射管结束编号
+
+startid19=126					//接收管19对应发射管起始编号
+endid19=197						//接收管19对应发射管结束编号
+
+startid20=126					//接收管20对应发射管起始编号
+endid20=161						//接收管20对应发射管结束编号
+
+[7]
+subtype=HD-I6510E				//子型号
+supportlist=HD-I6510E	//支持白板型号列表
+totalrecvnum=20			//接收灯总数
+totalsendnum=456		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=143				//底部发射管结束编号
+rightstart=144			//右边发射管起始编号
+rightend=227				//右边发射管结束编号
+topstart=228				//顶部发射管起始编号
+topend=371					//顶部发射管结束编号
+leftstart=372				//左边发射管起始编号
+leftend=455					//左边发射管结束编号
+
+bottomrecvnum=7			//底部接收灯数目
+rightrecvnum=3			//右边接收灯数目
+toprecvnum=7				//顶部接收灯数目
+leftrecvnum=3				//左边接收灯数目
+
+bottompcbnum=5			//底部PCB数目
+rightpcbnum=2				//右边PCB数目
+toppcbnum=6					//顶部PCB数目
+leftpcbnum=2				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=47			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=48		//底边第二个PCB对应发射管起始编号
+bottompcbend2=71			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=72		//底边第三个PCB对应发射管起始编号
+bottompcbend3=95			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=96		//底边第四个PCB对应发射管起始编号
+bottompcbend4=119			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=120		//底边第五个PCB对应发射管起始编号
+bottompcbend5=143			//底边第五个PCB对应发射管结束编号
+
+rightpcbstart1=144		//右边第一个PCB对应发射管起始编号
+rightpcbend1=185			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=186		//右边第二个PCB对应发射管起始编号
+rightpcbend2=227			//右边第二个PCB对应发射管结束编号
+
+toppcbstart1=228			//顶部第一个PCB对应发射管起始编号
+toppcbend1=251				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=252			//顶部第二个PCB对应发射管起始编号
+toppcbend2=275				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=276			//顶部第三个PCB对应发射管起始编号
+toppcbend3=299				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=300			//顶部第四个PCB对应发射管起始编号
+toppcbend4=323				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=324			//顶部第五个PCB对应发射管起始编号
+toppcbend5=347				//顶部第五个PCB对应发射管结束编号
+toppcbstart6=348			//顶部第六个PCB对应发射管起始编号
+toppcbend6=371				//顶部第六个PCB对应发射管结束编号
+
+leftpcbstart1=372			//左边第一个PCB对应发射管起始编号
+leftpcbend1=413				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=414			//左边第二个PCB对应发射管起始编号
+leftpcbend2=455				//左边第二个PCB对应发射管结束编号
+
+startid1=348					//接收管1对应发射管起始编号
+endid1=371						//接收管1对应发射管结束编号
+
+startid2=324					//接收管2对应发射管起始编号
+endid2=371						//接收管2对应发射管结束编号
+
+startid3=300					//接收管3对应发射管起始编号
+endid3=347						//接收管3对应发射管结束编号
+
+startid4=276					//接收管4对应发射管起始编号
+endid4=323						//接收管4对应发射管结束编号
+
+startid5=252					//接收管5对应发射管起始编号
+endid5=299						//接收管5对应发射管结束编号
+
+startid6=228					//接收管6对应发射管起始编号
+endid6=275						//接收管6对应发射管结束编号
+
+startid7=228					//接收管7对应发射管起始编号
+endid7=251						//接收管7对应发射管结束编号
+
+startid8=414					//接收管8对应发射管起始编号
+endid8=455						//接收管8对应发射管结束编号
+
+startid9=372					//接收管9对应发射管起始编号
+endid9=455						//接收管9对应发射管结束编号
+
+startid10=372					//接收管10对应发射管起始编号
+endid10=413						//接收管10对应发射管结束编号
+
+startid11=120					//接收管11对应发射管起始编号
+endid11=143						//接收管11对应发射管结束编号
+
+startid12=96					//接收管12对应发射管起始编号
+endid12=143						//接收管12对应发射管结束编号
+
+startid13=72					//接收管13对应发射管起始编号
+endid13=119						//接收管13对应发射管结束编号
+
+startid14=48					//接收管14对应发射管起始编号
+endid14=95						//接收管14对应发射管结束编号
+
+startid15=24						//接收管15对应发射管起始编号
+endid15=71						//接收管15对应发射管结束编号
+
+startid16=0						//接收管16对应发射管起始编号
+endid16=47						//接收管16对应发射管结束编号
+
+startid17=0					//接收管17对应发射管起始编号
+endid17=23						//接收管17对应发射管结束编号
+
+startid18=186					//接收管18对应发射管起始编号
+endid18=227						//接收管18对应发射管结束编号
+
+startid19=144					//接收管19对应发射管起始编号
+endid19=227						//接收管19对应发射管结束编号
+
+startid20=144					//接收管20对应发射管起始编号
+endid20=185						//接收管20对应发射管结束编号
+
+[8]
+subtype=I9105W				//子型号
+supportlist=HV-I9105W QWB100WSPS_H QWB100WSPSH00 HBM-105 Razr_i_105Q QWB100WS_H00 105_GPB-PS_1 HVB-105WI R5-1000 QWB100WSPSH01 IR32-105S_1 SWB100WSPSH01 MTC_1050	//支持白板型号列表
+totalrecvnum=20			//接收灯总数
+totalsendnum=644		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=209				//底部发射管结束编号
+rightstart=210			//右边发射管起始编号
+rightend=321				//右边发射管结束编号
+topstart=322				//顶部发射管起始编号
+topend=531					//顶部发射管结束编号
+leftstart=532				//左边发射管起始编号
+leftend=643					//左边发射管结束编号
+
+bottomrecvnum=7			//底部接收灯数目
+rightrecvnum=3			//右边接收灯数目
+toprecvnum=7				//顶部接收灯数目
+leftrecvnum=3				//左边接收灯数目
+
+bottompcbnum=6			//底部PCB数目
+rightpcbnum=2				//右边PCB数目
+toppcbnum=6					//顶部PCB数目
+leftpcbnum=2				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=34			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=35		//底边第二个PCB对应发射管起始编号
+bottompcbend2=69			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=70		//底边第三个PCB对应发射管起始编号
+bottompcbend3=104			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=105		//底边第四个PCB对应发射管起始编号
+bottompcbend4=139			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=140		//底边第五个PCB对应发射管起始编号
+bottompcbend5=174			//底边第五个PCB对应发射管结束编号
+bottompcbstart6=175		//底边第六个PCB对应发射管起始编号
+bottompcbend6=209			//底边第六个PCB对应发射管结束编号
+
+rightpcbstart1=210		//右边第一个PCB对应发射管起始编号
+rightpcbend1=265			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=266		//右边第二个PCB对应发射管起始编号
+rightpcbend2=321			//右边第二个PCB对应发射管结束编号
+
+toppcbstart1=322			//顶部第一个PCB对应发射管起始编号
+toppcbend1=356				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=357			//顶部第二个PCB对应发射管起始编号
+toppcbend2=391				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=392			//顶部第三个PCB对应发射管起始编号
+toppcbend3=426				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=427			//顶部第四个PCB对应发射管起始编号
+toppcbend4=461				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=462			//顶部第五个PCB对应发射管起始编号
+toppcbend5=496				//顶部第五个PCB对应发射管结束编号
+toppcbstart6=497			//顶部第六个PCB对应发射管起始编号
+toppcbend6=531				//顶部第六个PCB对应发射管结束编号
+
+leftpcbstart1=532			//左边第一个PCB对应发射管起始编号
+leftpcbend1=587				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=588			//左边第二个PCB对应发射管起始编号
+leftpcbend2=643				//左边第二个PCB对应发射管结束编号
+
+startid1=497					//接收管1对应发射管起始编号
+endid1=531						//接收管1对应发射管结束编号
+
+startid2=462					//接收管2对应发射管起始编号
+endid2=531						//接收管2对应发射管结束编号
+
+startid3=427					//接收管3对应发射管起始编号
+endid3=496						//接收管3对应发射管结束编号
+
+startid4=392					//接收管4对应发射管起始编号
+endid4=461						//接收管4对应发射管结束编号
+
+startid5=357					//接收管5对应发射管起始编号
+endid5=426						//接收管5对应发射管结束编号
+
+startid6=322					//接收管6对应发射管起始编号
+endid6=391						//接收管6对应发射管结束编号
+
+startid7=322					//接收管7对应发射管起始编号
+endid7=356						//接收管7对应发射管结束编号
+
+startid8=588					//接收管8对应发射管起始编号
+endid8=643						//接收管8对应发射管结束编号
+
+startid9=532					//接收管9对应发射管起始编号
+endid9=643						//接收管9对应发射管结束编号
+
+startid10=532					//接收管10对应发射管起始编号
+endid10=587						//接收管10对应发射管结束编号
+
+startid11=175					//接收管11对应发射管起始编号
+endid11=209						//接收管11对应发射管结束编号
+
+startid12=140					//接收管12对应发射管起始编号
+endid12=209						//接收管12对应发射管结束编号
+
+startid13=105					//接收管13对应发射管起始编号
+endid13=174						//接收管13对应发射管结束编号
+
+startid14=70					//接收管14对应发射管起始编号
+endid14=139						//接收管14对应发射管结束编号
+
+startid15=35						//接收管15对应发射管起始编号
+endid15=104						//接收管15对应发射管结束编号
+
+startid16=0						//接收管16对应发射管起始编号
+endid16=69						//接收管16对应发射管结束编号
+
+startid17=0					//接收管17对应发射管起始编号
+endid17=34						//接收管17对应发射管结束编号
+
+startid18=266					//接收管18对应发射管起始编号
+endid18=321						//接收管18对应发射管结束编号
+
+startid19=210					//接收管19对应发射管起始编号
+endid19=321						//接收管19对应发射管结束编号
+
+startid20=210					//接收管20对应发射管起始编号
+endid20=265						//接收管20对应发射管结束编号
+
+[9]
+subtype=C9000				//子型号
+supportlist=HV-C9000	//支持白板型号列表
+totalrecvnum=20			//接收灯总数
+totalsendnum=548		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=159				//底部发射管结束编号
+rightstart=160			//右边发射管起始编号
+rightend=273				//右边发射管结束编号
+topstart=274				//顶部发射管起始编号
+topend=433					//顶部发射管结束编号
+leftstart=434				//左边发射管起始编号
+leftend=547					//左边发射管结束编号
+
+bottomrecvnum=6			//底部接收灯数目
+rightrecvnum=4			//右边接收灯数目
+toprecvnum=6				//顶部接收灯数目
+leftrecvnum=4				//左边接收灯数目
+
+bottompcbnum=5			//底部PCB数目
+rightpcbnum=3				//右边PCB数目
+toppcbnum=5					//顶部PCB数目
+leftpcbnum=3				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=31			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=32		//底边第二个PCB对应发射管起始编号
+bottompcbend2=63			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=64		//底边第三个PCB对应发射管起始编号
+bottompcbend3=95			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=96		//底边第四个PCB对应发射管起始编号
+bottompcbend4=127			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=128		//底边第五个PCB对应发射管起始编号
+bottompcbend5=159			//底边第五个PCB对应发射管结束编号
+
+rightpcbstart1=160		//右边第一个PCB对应发射管起始编号
+rightpcbend1=197			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=198		//右边第二个PCB对应发射管起始编号
+rightpcbend2=235			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=236		//右边第三个PCB对应发射管起始编号
+rightpcbend3=273			//右边第三个PCB对应发射管结束编号
+
+toppcbstart1=274			//顶部第一个PCB对应发射管起始编号
+toppcbend1=305				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=306			//顶部第二个PCB对应发射管起始编号
+toppcbend2=337				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=338			//顶部第三个PCB对应发射管起始编号
+toppcbend3=369				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=370			//顶部第四个PCB对应发射管起始编号
+toppcbend4=401				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=402			//顶部第五个PCB对应发射管起始编号
+toppcbend5=433				//顶部第五个PCB对应发射管结束编号
+
+leftpcbstart1=434			//左边第一个PCB对应发射管起始编号
+leftpcbend1=471				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=472			//左边第二个PCB对应发射管起始编号
+leftpcbend2=509				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=510			//左边第三个PCB对应发射管起始编号
+leftpcbend3=547				//左边第三个PCB对应发射管结束编号
+
+startid1=402					//接收管1对应发射管起始编号
+endid1=433						//接收管1对应发射管结束编号
+
+startid2=370					//接收管2对应发射管起始编号
+endid2=433						//接收管2对应发射管结束编号
+
+startid3=338					//接收管3对应发射管起始编号
+endid3=401						//接收管3对应发射管结束编号
+
+startid4=306					//接收管4对应发射管起始编号
+endid4=369						//接收管4对应发射管结束编号
+
+startid5=274					//接收管5对应发射管起始编号
+endid5=337						//接收管5对应发射管结束编号
+
+startid6=274					//接收管6对应发射管起始编号
+endid6=305						//接收管6对应发射管结束编号
+
+startid7=510					//接收管7对应发射管起始编号
+endid7=547						//接收管7对应发射管结束编号
+
+startid8=472					//接收管8对应发射管起始编号
+endid8=547						//接收管8对应发射管结束编号
+
+startid9=434					//接收管9对应发射管起始编号
+endid9=509						//接收管9对应发射管结束编号
+
+startid10=434					//接收管10对应发射管起始编号
+endid10=471						//接收管10对应发射管结束编号
+
+startid11=128					//接收管11对应发射管起始编号
+endid11=159						//接收管11对应发射管结束编号
+
+startid12=96					//接收管12对应发射管起始编号
+endid12=159						//接收管12对应发射管结束编号
+
+startid13=64					//接收管13对应发射管起始编号
+endid13=127						//接收管13对应发射管结束编号
+
+startid14=32					//接收管14对应发射管起始编号
+endid14=95						//接收管14对应发射管结束编号
+
+startid15=0						//接收管15对应发射管起始编号
+endid15=63						//接收管15对应发射管结束编号
+
+startid16=0						//接收管16对应发射管起始编号
+endid16=31						//接收管16对应发射管结束编号
+
+startid17=236					//接收管17对应发射管起始编号
+endid17=273						//接收管17对应发射管结束编号
+
+startid18=198					//接收管18对应发射管起始编号
+endid18=273						//接收管18对应发射管结束编号
+
+startid19=160					//接收管19对应发射管起始编号
+endid19=235						//接收管19对应发射管结束编号
+
+startid20=160					//接收管20对应发射管起始编号
+endid20=197						//接收管20对应发射管结束编号
+
+[10]
+subtype=K6070				//子型号
+supportlist=HV-K6070 QWB70-KZ IR60-70S IR60-70S_G HV-K6070_W	//支持白板型号列表
+totalrecvnum=20			//接收灯总数
+totalsendnum=452		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=129				//底部发射管结束编号
+rightstart=130			//右边发射管起始编号
+rightend=225				//右边发射管结束编号
+topstart=226				//顶部发射管起始编号
+topend=355					//顶部发射管结束编号
+leftstart=356				//左边发射管起始编号
+leftend=451					//左边发射管结束编号
+
+bottomrecvnum=6			//底部接收灯数目
+rightrecvnum=4			//右边接收灯数目
+toprecvnum=6				//顶部接收灯数目
+leftrecvnum=4				//左边接收灯数目
+
+bottompcbnum=5			//底部PCB数目
+rightpcbnum=3				//右边PCB数目
+toppcbnum=5					//顶部PCB数目
+leftpcbnum=3				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=25			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=26		//底边第二个PCB对应发射管起始编号
+bottompcbend2=51			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=52		//底边第三个PCB对应发射管起始编号
+bottompcbend3=77			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=78		//底边第四个PCB对应发射管起始编号
+bottompcbend4=103			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=104		//底边第五个PCB对应发射管起始编号
+bottompcbend5=129			//底边第五个PCB对应发射管结束编号
+
+rightpcbstart1=130		//右边第一个PCB对应发射管起始编号
+rightpcbend1=161			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=162		//右边第二个PCB对应发射管起始编号
+rightpcbend2=193			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=194		//右边第三个PCB对应发射管起始编号
+rightpcbend3=225			//右边第三个PCB对应发射管结束编号
+
+toppcbstart1=226			//顶部第一个PCB对应发射管起始编号
+toppcbend1=251				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=252			//顶部第二个PCB对应发射管起始编号
+toppcbend2=277				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=278			//顶部第三个PCB对应发射管起始编号
+toppcbend3=303				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=304			//顶部第四个PCB对应发射管起始编号
+toppcbend4=329				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=330			//顶部第五个PCB对应发射管起始编号
+toppcbend5=355				//顶部第五个PCB对应发射管结束编号
+
+leftpcbstart1=356			//左边第一个PCB对应发射管起始编号
+leftpcbend1=387				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=388			//左边第二个PCB对应发射管起始编号
+leftpcbend2=419				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=420			//左边第三个PCB对应发射管起始编号
+leftpcbend3=451				//左边第三个PCB对应发射管结束编号
+
+startid1=330					//接收管1对应发射管起始编号
+endid1=355						//接收管1对应发射管结束编号
+
+startid2=304					//接收管2对应发射管起始编号
+endid2=355						//接收管2对应发射管结束编号
+
+startid3=278					//接收管3对应发射管起始编号
+endid3=329						//接收管3对应发射管结束编号
+
+startid4=252					//接收管4对应发射管起始编号
+endid4=303						//接收管4对应发射管结束编号
+
+startid5=226					//接收管5对应发射管起始编号
+endid5=277						//接收管5对应发射管结束编号
+
+startid6=226					//接收管6对应发射管起始编号
+endid6=251						//接收管6对应发射管结束编号
+
+startid7=420					//接收管7对应发射管起始编号
+endid7=451						//接收管7对应发射管结束编号
+
+startid8=388					//接收管8对应发射管起始编号
+endid8=451						//接收管8对应发射管结束编号
+
+startid9=356					//接收管9对应发射管起始编号
+endid9=419						//接收管9对应发射管结束编号
+
+startid10=356					//接收管10对应发射管起始编号
+endid10=387						//接收管10对应发射管结束编号
+
+startid11=104					//接收管11对应发射管起始编号
+endid11=129						//接收管11对应发射管结束编号
+
+startid12=78					//接收管12对应发射管起始编号
+endid12=129						//接收管12对应发射管结束编号
+
+startid13=52					//接收管13对应发射管起始编号
+endid13=103						//接收管13对应发射管结束编号
+
+startid14=26					//接收管14对应发射管起始编号
+endid14=77						//接收管14对应发射管结束编号
+
+startid15=0						//接收管15对应发射管起始编号
+endid15=51						//接收管15对应发射管结束编号
+
+startid16=0						//接收管16对应发射管起始编号
+endid16=25						//接收管16对应发射管结束编号
+
+startid17=194					//接收管17对应发射管起始编号
+endid17=225						//接收管17对应发射管结束编号
+
+startid18=162					//接收管18对应发射管起始编号
+endid18=225						//接收管18对应发射管结束编号
+
+startid19=130					//接收管19对应发射管起始编号
+endid19=193						//接收管19对应发射管结束编号
+
+startid20=130					//接收管20对应发射管起始编号
+endid20=161						//接收管20对应发射管结束编号
+
+[11]
+subtype=K6075				//子型号
+supportlist=HV-K6075	//支持白板型号列表
+totalrecvnum=20			//接收灯总数
+totalsendnum=502		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=154				//底部发射管结束编号
+rightstart=155			//右边发射管起始编号
+rightend=250				//右边发射管结束编号
+topstart=251				//顶部发射管起始编号
+topend=405					//顶部发射管结束编号
+leftstart=406				//左边发射管起始编号
+leftend=501					//左边发射管结束编号
+
+bottomrecvnum=6			//底部接收灯数目
+rightrecvnum=4			//右边接收灯数目
+toprecvnum=6				//顶部接收灯数目
+leftrecvnum=4				//左边接收灯数目
+
+bottompcbnum=5			//底部PCB数目
+rightpcbnum=3				//右边PCB数目
+toppcbnum=5					//顶部PCB数目
+leftpcbnum=3				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=30			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=31		//底边第二个PCB对应发射管起始编号
+bottompcbend2=61			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=62		//底边第三个PCB对应发射管起始编号
+bottompcbend3=92			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=93		//底边第四个PCB对应发射管起始编号
+bottompcbend4=123			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=124		//底边第五个PCB对应发射管起始编号
+bottompcbend5=154			//底边第五个PCB对应发射管结束编号
+
+rightpcbstart1=155		//右边第一个PCB对应发射管起始编号
+rightpcbend1=186			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=187		//右边第二个PCB对应发射管起始编号
+rightpcbend2=218			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=219		//右边第三个PCB对应发射管起始编号
+rightpcbend3=250			//右边第三个PCB对应发射管结束编号
+
+toppcbstart1=251			//顶部第一个PCB对应发射管起始编号
+toppcbend1=281				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=282			//顶部第二个PCB对应发射管起始编号
+toppcbend2=312				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=313			//顶部第三个PCB对应发射管起始编号
+toppcbend3=343				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=344			//顶部第四个PCB对应发射管起始编号
+toppcbend4=374				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=375			//顶部第五个PCB对应发射管起始编号
+toppcbend5=405				//顶部第五个PCB对应发射管结束编号
+
+leftpcbstart1=406			//左边第一个PCB对应发射管起始编号
+leftpcbend1=437				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=438			//左边第二个PCB对应发射管起始编号
+leftpcbend2=469				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=470			//左边第三个PCB对应发射管起始编号
+leftpcbend3=501				//左边第三个PCB对应发射管结束编号
+
+startid1=375					//接收管1对应发射管起始编号
+endid1=405						//接收管1对应发射管结束编号
+
+startid2=344					//接收管2对应发射管起始编号
+endid2=405						//接收管2对应发射管结束编号
+
+startid3=313					//接收管3对应发射管起始编号
+endid3=374						//接收管3对应发射管结束编号
+
+startid4=282					//接收管4对应发射管起始编号
+endid4=343						//接收管4对应发射管结束编号
+
+startid5=251					//接收管5对应发射管起始编号
+endid5=312						//接收管5对应发射管结束编号
+
+startid6=251					//接收管6对应发射管起始编号
+endid6=281						//接收管6对应发射管结束编号
+
+startid7=470					//接收管7对应发射管起始编号
+endid7=501						//接收管7对应发射管结束编号
+
+startid8=438					//接收管8对应发射管起始编号
+endid8=501						//接收管8对应发射管结束编号
+
+startid9=406					//接收管9对应发射管起始编号
+endid9=469						//接收管9对应发射管结束编号
+
+startid10=406					//接收管10对应发射管起始编号
+endid10=437						//接收管10对应发射管结束编号
+
+startid11=124					//接收管11对应发射管起始编号
+endid11=154						//接收管11对应发射管结束编号
+
+startid12=93					//接收管12对应发射管起始编号
+endid12=154						//接收管12对应发射管结束编号
+
+startid13=62					//接收管13对应发射管起始编号
+endid13=123						//接收管13对应发射管结束编号
+
+startid14=31					//接收管14对应发射管起始编号
+endid14=92						//接收管14对应发射管结束编号
+
+startid15=0						//接收管15对应发射管起始编号
+endid15=61						//接收管15对应发射管结束编号
+
+startid16=0						//接收管16对应发射管起始编号
+endid16=30						//接收管16对应发射管结束编号
+
+startid17=219					//接收管17对应发射管起始编号
+endid17=250						//接收管17对应发射管结束编号
+
+startid18=187					//接收管18对应发射管起始编号
+endid18=250						//接收管18对应发射管结束编号
+
+startid19=155					//接收管19对应发射管起始编号
+endid19=218						//接收管19对应发射管结束编号
+
+startid20=155					//接收管20对应发射管起始编号
+endid20=186						//接收管20对应发射管结束编号
+
+[12]
+subtype=HD-I7010E				//子型号
+supportlist=HD-I7010E	//支持白板型号列表
+totalrecvnum=24			//接收灯总数
+totalsendnum=502		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=160				//底部发射管结束编号
+rightstart=161			//右边发射管起始编号
+rightend=250				//右边发射管结束编号
+topstart=251				//顶部发射管起始编号
+topend=411					//顶部发射管结束编号
+leftstart=412				//左边发射管起始编号
+leftend=501					//左边发射管结束编号
+
+bottomrecvnum=8			//底部接收灯数目
+rightrecvnum=4			//右边接收灯数目
+toprecvnum=8				//顶部接收灯数目
+leftrecvnum=4				//左边接收灯数目
+
+bottompcbnum=7			//底部PCB数目
+rightpcbnum=3				//右边PCB数目
+toppcbnum=7					//顶部PCB数目
+leftpcbnum=3				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=22			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=23		//底边第二个PCB对应发射管起始编号
+bottompcbend2=45			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=46		//底边第三个PCB对应发射管起始编号
+bottompcbend3=68			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=69		//底边第四个PCB对应发射管起始编号
+bottompcbend4=91			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=92		//底边第五个PCB对应发射管起始编号
+bottompcbend5=114			//底边第五个PCB对应发射管结束编号
+bottompcbstart6=115		//底边第六个PCB对应发射管起始编号
+bottompcbend6=137			//底边第六个PCB对应发射管结束编号
+bottompcbstart7=138		//底边第七个PCB对应发射管起始编号
+bottompcbend7=160			//底边第七个PCB对应发射管结束编号
+
+rightpcbstart1=161		//右边第一个PCB对应发射管起始编号
+rightpcbend1=190			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=191		//右边第二个PCB对应发射管起始编号
+rightpcbend2=220			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=221		//右边第三个PCB对应发射管起始编号
+rightpcbend3=250			//右边第三个PCB对应发射管结束编号
+
+toppcbstart1=251			//顶部第一个PCB对应发射管起始编号
+toppcbend1=273				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=274			//顶部第二个PCB对应发射管起始编号
+toppcbend2=296				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=297			//顶部第三个PCB对应发射管起始编号
+toppcbend3=319				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=320			//顶部第四个PCB对应发射管起始编号
+toppcbend4=342				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=343			//顶部第五个PCB对应发射管起始编号
+toppcbend5=365				//顶部第五个PCB对应发射管结束编号
+toppcbstart6=366			//顶部第六个PCB对应发射管起始编号
+toppcbend6=388				//顶部第六个PCB对应发射管结束编号
+toppcbstart7=389			//顶部第七个PCB对应发射管起始编号
+toppcbend7=411				//顶部第七个PCB对应发射管结束编号
+
+leftpcbstart1=412			//左边第一个PCB对应发射管起始编号
+leftpcbend1=441				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=442			//左边第二个PCB对应发射管起始编号
+leftpcbend2=471				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=472			//左边第三个PCB对应发射管起始编号
+leftpcbend3=501				//左边第三个PCB对应发射管结束编号
+
+startid1=389					//接收管1对应发射管起始编号
+endid1=411						//接收管1对应发射管结束编号
+
+startid2=366					//接收管2对应发射管起始编号
+endid2=411						//接收管2对应发射管结束编号
+
+startid3=343					//接收管3对应发射管起始编号
+endid3=388						//接收管3对应发射管结束编号
+
+startid4=320					//接收管4对应发射管起始编号
+endid4=365						//接收管4对应发射管结束编号
+
+startid5=297					//接收管5对应发射管起始编号
+endid5=342						//接收管5对应发射管结束编号
+
+startid6=274					//接收管6对应发射管起始编号
+endid6=319						//接收管6对应发射管结束编号
+
+startid7=251					//接收管7对应发射管起始编号
+endid7=296						//接收管7对应发射管结束编号
+
+startid8=251					//接收管8对应发射管起始编号
+endid8=273						//接收管8对应发射管结束编号
+
+startid9=472					//接收管9对应发射管起始编号
+endid9=501						//接收管9对应发射管结束编号
+
+startid10=442					//接收管10对应发射管起始编号
+endid10=501						//接收管10对应发射管结束编号
+
+startid11=412					//接收管11对应发射管起始编号
+endid11=471						//接收管11对应发射管结束编号
+
+startid12=412					//接收管12对应发射管起始编号
+endid12=441						//接收管12对应发射管结束编号
+
+startid13=138					//接收管13对应发射管起始编号
+endid13=160						//接收管13对应发射管结束编号
+
+startid14=115					//接收管14对应发射管起始编号
+endid14=160						//接收管14对应发射管结束编号
+
+startid15=92						//接收管15对应发射管起始编号
+endid15=137						//接收管15对应发射管结束编号
+
+startid16=69						//接收管16对应发射管起始编号
+endid16=114						//接收管16对应发射管结束编号
+
+startid17=46					//接收管17对应发射管起始编号
+endid17=91						//接收管17对应发射管结束编号
+
+startid18=23					//接收管18对应发射管起始编号
+endid18=68						//接收管18对应发射管结束编号
+
+startid19=0					//接收管19对应发射管起始编号
+endid19=45						//接收管19对应发射管结束编号
+
+startid20=0					//接收管20对应发射管起始编号
+endid20=22						//接收管20对应发射管结束编号
+
+startid21=221					//接收管21对应发射管起始编号
+endid21=250						//接收管21对应发射管结束编号
+
+startid22=191					//接收管22对应发射管起始编号
+endid22=250						//接收管22对应发射管结束编号
+
+startid23=161					//接收管23对应发射管起始编号
+endid23=220						//接收管23对应发射管结束编号
+
+startid24=161					//接收管24对应发射管起始编号
+endid24=190						//接收管24对应发射管结束编号
+
+[13]
+subtype=I392W				//子型号
+supportlist=HV-I392W JectorFB792P JectorFB-490 IR30-92S HV-CD100 TM92 HV-I392W_TR IR30-92 IR30-92_P DT-I9200_W RAZR_I-88A E-88(IR30-92)	//支持白板型号列表
+totalrecvnum=22			//接收灯总数
+totalsendnum=612		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=191				//底部发射管结束编号
+rightstart=192			//右边发射管起始编号
+rightend=305				//右边发射管结束编号
+topstart=306				//顶部发射管起始编号
+topend=497					//顶部发射管结束编号
+leftstart=498				//左边发射管起始编号
+leftend=611					//左边发射管结束编号
+
+bottomrecvnum=7			//底部接收灯数目
+rightrecvnum=4			//右边接收灯数目
+toprecvnum=7				//顶部接收灯数目
+leftrecvnum=4				//左边接收灯数目
+
+bottompcbnum=6			//底部PCB数目
+rightpcbnum=3				//右边PCB数目
+toppcbnum=6					//顶部PCB数目
+leftpcbnum=3				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=31			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=32		//底边第二个PCB对应发射管起始编号
+bottompcbend2=63			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=64		//底边第三个PCB对应发射管起始编号
+bottompcbend3=95			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=96		//底边第四个PCB对应发射管起始编号
+bottompcbend4=127			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=128		//底边第五个PCB对应发射管起始编号
+bottompcbend5=159			//底边第五个PCB对应发射管结束编号
+bottompcbstart6=160		//底边第六个PCB对应发射管起始编号
+bottompcbend6=191			//底边第六个PCB对应发射管结束编号
+
+rightpcbstart1=192		//右边第一个PCB对应发射管起始编号
+rightpcbend1=229			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=230		//右边第二个PCB对应发射管起始编号
+rightpcbend2=267			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=268		//右边第三个PCB对应发射管起始编号
+rightpcbend3=305			//右边第三个PCB对应发射管结束编号
+
+toppcbstart1=306			//顶部第一个PCB对应发射管起始编号
+toppcbend1=337				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=338			//顶部第二个PCB对应发射管起始编号
+toppcbend2=369				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=370			//顶部第三个PCB对应发射管起始编号
+toppcbend3=401				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=402			//顶部第四个PCB对应发射管起始编号
+toppcbend4=433				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=434			//顶部第五个PCB对应发射管起始编号
+toppcbend5=465				//顶部第五个PCB对应发射管结束编号
+toppcbstart6=466			//顶部第六个PCB对应发射管起始编号
+toppcbend6=497				//顶部第六个PCB对应发射管结束编号
+
+leftpcbstart1=498			//左边第一个PCB对应发射管起始编号
+leftpcbend1=535				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=536			//左边第二个PCB对应发射管起始编号
+leftpcbend2=573				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=574			//左边第三个PCB对应发射管起始编号
+leftpcbend3=611				//左边第三个PCB对应发射管结束编号
+
+startid1=466					//接收管1对应发射管起始编号
+endid1=497						//接收管1对应发射管结束编号
+
+startid2=434					//接收管2对应发射管起始编号
+endid2=497						//接收管2对应发射管结束编号
+
+startid3=402					//接收管3对应发射管起始编号
+endid3=465						//接收管3对应发射管结束编号
+
+startid4=370					//接收管4对应发射管起始编号
+endid4=433						//接收管4对应发射管结束编号
+
+startid5=338					//接收管5对应发射管起始编号
+endid5=401						//接收管5对应发射管结束编号
+
+startid6=306					//接收管6对应发射管起始编号
+endid6=369						//接收管6对应发射管结束编号
+
+startid7=306					//接收管7对应发射管起始编号
+endid7=337						//接收管7对应发射管结束编号
+
+startid8=574					//接收管8对应发射管起始编号
+endid8=611						//接收管8对应发射管结束编号
+
+startid9=536					//接收管9对应发射管起始编号
+endid9=611						//接收管9对应发射管结束编号
+
+startid10=498					//接收管10对应发射管起始编号
+endid10=573						//接收管10对应发射管结束编号
+
+startid11=498					//接收管11对应发射管起始编号
+endid11=535						//接收管11对应发射管结束编号
+
+startid12=160					//接收管12对应发射管起始编号
+endid12=191						//接收管12对应发射管结束编号
+
+startid13=128					//接收管13对应发射管起始编号
+endid13=191						//接收管13对应发射管结束编号
+
+startid14=96					//接收管14对应发射管起始编号
+endid14=159						//接收管14对应发射管结束编号
+
+startid15=64						//接收管15对应发射管起始编号
+endid15=127						//接收管15对应发射管结束编号
+
+startid16=32						//接收管16对应发射管起始编号
+endid16=95						//接收管16对应发射管结束编号
+
+startid17=0					//接收管17对应发射管起始编号
+endid17=63						//接收管17对应发射管结束编号
+
+startid18=0					//接收管18对应发射管起始编号
+endid18=31						//接收管18对应发射管结束编号
+
+startid19=268					//接收管19对应发射管起始编号
+endid19=305						//接收管19对应发射管结束编号
+
+startid20=230					//接收管20对应发射管起始编号
+endid20=305						//接收管20对应发射管结束编号
+
+startid21=192					//接收管21对应发射管起始编号
+endid21=267						//接收管21对应发射管结束编号
+
+startid22=192					//接收管22对应发射管起始编号
+endid22=229						//接收管22对应发射管结束编号
+
+[14]
+subtype=I9120W				//子型号
+supportlist=HV-I9120W	//支持白板型号列表
+totalrecvnum=22			//接收灯总数
+totalsendnum=750		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=233				//底部发射管结束编号
+rightstart=234			//右边发射管起始编号
+rightend=374				//右边发射管结束编号
+topstart=375				//顶部发射管起始编号
+topend=608					//顶部发射管结束编号
+leftstart=609				//左边发射管起始编号
+leftend=749					//左边发射管结束编号
+
+bottomrecvnum=7			//底部接收灯数目
+rightrecvnum=4			//右边接收灯数目
+toprecvnum=7				//顶部接收灯数目
+leftrecvnum=4				//左边接收灯数目
+
+bottompcbnum=6			//底部PCB数目
+rightpcbnum=3				//右边PCB数目
+toppcbnum=6					//顶部PCB数目
+leftpcbnum=3				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=38			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=39		//底边第二个PCB对应发射管起始编号
+bottompcbend2=77			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=78		//底边第三个PCB对应发射管起始编号
+bottompcbend3=116			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=117		//底边第四个PCB对应发射管起始编号
+bottompcbend4=155			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=156		//底边第五个PCB对应发射管起始编号
+bottompcbend5=194			//底边第五个PCB对应发射管结束编号
+bottompcbstart6=195		//底边第六个PCB对应发射管起始编号
+bottompcbend6=233			//底边第六个PCB对应发射管结束编号
+
+rightpcbstart1=234		//右边第一个PCB对应发射管起始编号
+rightpcbend1=280			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=281		//右边第二个PCB对应发射管起始编号
+rightpcbend2=327			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=328		//右边第三个PCB对应发射管起始编号
+rightpcbend3=374			//右边第三个PCB对应发射管结束编号
+
+toppcbstart1=375			//顶部第一个PCB对应发射管起始编号
+toppcbend1=413				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=414			//顶部第二个PCB对应发射管起始编号
+toppcbend2=452				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=453			//顶部第三个PCB对应发射管起始编号
+toppcbend3=491				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=492			//顶部第四个PCB对应发射管起始编号
+toppcbend4=530				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=531			//顶部第五个PCB对应发射管起始编号
+toppcbend5=569				//顶部第五个PCB对应发射管结束编号
+toppcbstart6=570			//顶部第六个PCB对应发射管起始编号
+toppcbend6=608				//顶部第六个PCB对应发射管结束编号
+
+leftpcbstart1=609			//左边第一个PCB对应发射管起始编号
+leftpcbend1=655				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=656			//左边第二个PCB对应发射管起始编号
+leftpcbend2=702				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=703			//左边第三个PCB对应发射管起始编号
+leftpcbend3=749				//左边第三个PCB对应发射管结束编号
+
+startid1=570					//接收管1对应发射管起始编号
+endid1=608						//接收管1对应发射管结束编号
+
+startid2=531					//接收管2对应发射管起始编号
+endid2=608						//接收管2对应发射管结束编号
+
+startid3=492					//接收管3对应发射管起始编号
+endid3=569						//接收管3对应发射管结束编号
+
+startid4=453					//接收管4对应发射管起始编号
+endid4=530						//接收管4对应发射管结束编号
+
+startid5=414					//接收管5对应发射管起始编号
+endid5=491						//接收管5对应发射管结束编号
+
+startid6=375					//接收管6对应发射管起始编号
+endid6=452						//接收管6对应发射管结束编号
+
+startid7=375					//接收管7对应发射管起始编号
+endid7=413						//接收管7对应发射管结束编号
+
+startid8=703					//接收管8对应发射管起始编号
+endid8=749						//接收管8对应发射管结束编号
+
+startid9=656					//接收管9对应发射管起始编号
+endid9=749						//接收管9对应发射管结束编号
+
+startid10=609					//接收管10对应发射管起始编号
+endid10=702						//接收管10对应发射管结束编号
+
+startid11=609					//接收管11对应发射管起始编号
+endid11=655						//接收管11对应发射管结束编号
+
+startid12=195					//接收管12对应发射管起始编号
+endid12=233						//接收管12对应发射管结束编号
+
+startid13=156					//接收管13对应发射管起始编号
+endid13=233						//接收管13对应发射管结束编号
+
+startid14=117					//接收管14对应发射管起始编号
+endid14=194						//接收管14对应发射管结束编号
+
+startid15=78						//接收管15对应发射管起始编号
+endid15=155						//接收管15对应发射管结束编号
+
+startid16=39						//接收管16对应发射管起始编号
+endid16=116						//接收管16对应发射管结束编号
+
+startid17=0					//接收管17对应发射管起始编号
+endid17=77						//接收管17对应发射管结束编号
+
+startid18=0					//接收管18对应发射管起始编号
+endid18=38						//接收管18对应发射管结束编号
+
+startid19=328					//接收管19对应发射管起始编号
+endid19=374						//接收管19对应发射管结束编号
+
+startid20=281					//接收管20对应发射管起始编号
+endid20=374						//接收管20对应发射管结束编号
+
+startid21=234					//接收管21对应发射管起始编号
+endid21=327						//接收管21对应发射管结束编号
+
+startid22=234					//接收管22对应发射管起始编号
+endid22=280						//接收管22对应发射管结束编号
+
+[15]
+subtype=K6080		//子型号
+supportlist=HV-K6080	//支持白板型号列表
+totalrecvnum=20			//接收灯总数
+totalsendnum=544		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=159				//底部发射管结束编号
+rightstart=160			//右边发射管起始编号
+rightend=271				//右边发射管结束编号
+topstart=272				//顶部发射管起始编号
+topend=431					//顶部发射管结束编号
+leftstart=432				//左边发射管起始编号
+leftend=543					//左边发射管结束编号
+
+bottomrecvnum=6			//底部接收灯数目
+rightrecvnum=4			//右边接收灯数目
+toprecvnum=6				//顶部接收灯数目
+leftrecvnum=4				//左边接收灯数目
+
+bottompcbnum=6			//底部PCB数目
+rightpcbnum=4				//右边PCB数目
+toppcbnum=6					//顶部PCB数目
+leftpcbnum=4				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=15			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=16		//底边第二个PCB对应发射管起始编号
+bottompcbend2=47			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=48		//底边第三个PCB对应发射管起始编号
+bottompcbend3=79			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=80		//底边第四个PCB对应发射管起始编号
+bottompcbend4=111			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=112		//底边第五个PCB对应发射管起始编号
+bottompcbend5=143			//底边第五个PCB对应发射管结束编号
+bottompcbstart6=144		//底边第六个PCB对应发射管起始编号
+bottompcbend6=159			//底边第六个PCB对应发射管结束编号
+
+rightpcbstart1=160		//右边第一个PCB对应发射管起始编号
+rightpcbend1=177			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=178		//右边第二个PCB对应发射管起始编号
+rightpcbend2=215			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=216		//右边第三个PCB对应发射管起始编号
+rightpcbend3=253			//右边第三个PCB对应发射管结束编号
+rightpcbstart4=254		//右边第四个PCB对应发射管起始编号
+rightpcbend4=271			//右边第四个PCB对应发射管结束编号
+
+toppcbstart1=272			//顶部第一个PCB对应发射管起始编号
+toppcbend1=287				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=288			//顶部第二个PCB对应发射管起始编号
+toppcbend2=319				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=320			//顶部第三个PCB对应发射管起始编号
+toppcbend3=351				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=352			//顶部第四个PCB对应发射管起始编号
+toppcbend4=383				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=384			//顶部第五个PCB对应发射管起始编号
+toppcbend5=415				//顶部第五个PCB对应发射管结束编号
+toppcbstart6=416			//顶部第六个PCB对应发射管起始编号
+toppcbend6=431				//顶部第六个PCB对应发射管结束编号
+
+leftpcbstart1=432			//左边第一个PCB对应发射管起始编号
+leftpcbend1=449				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=450			//左边第二个PCB对应发射管起始编号
+leftpcbend2=487				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=488			//左边第三个PCB对应发射管起始编号
+leftpcbend3=525				//左边第三个PCB对应发射管结束编号
+leftpcbstart4=526			//左边第四个PCB对应发射管起始编号
+leftpcbend4=543				//左边第四个PCB对应发射管结束编号
+
+startid1=400					//接收管1对应发射管起始编号
+endid1=431						//接收管1对应发射管结束编号
+
+startid2=368					//接收管2对应发射管起始编号
+endid2=431						//接收管2对应发射管结束编号
+
+startid3=336					//接收管3对应发射管起始编号
+endid3=399						//接收管3对应发射管结束编号
+
+startid4=304					//接收管4对应发射管起始编号
+endid4=367						//接收管4对应发射管结束编号
+
+startid5=272					//接收管5对应发射管起始编号
+endid5=335						//接收管5对应发射管结束编号
+
+startid6=272					//接收管6对应发射管起始编号
+endid6=303						//接收管6对应发射管结束编号
+
+startid7=507					//接收管7对应发射管起始编号
+endid7=543						//接收管7对应发射管结束编号
+
+startid8=469					//接收管8对应发射管起始编号
+endid8=543						//接收管8对应发射管结束编号
+
+startid9=432					//接收管9对应发射管起始编号
+endid9=506						//接收管9对应发射管结束编号
+
+startid10=432					//接收管10对应发射管起始编号
+endid10=468						//接收管10对应发射管结束编号
+
+startid11=128					//接收管11对应发射管起始编号
+endid11=159						//接收管11对应发射管结束编号
+
+startid12=96					//接收管12对应发射管起始编号
+endid12=159						//接收管12对应发射管结束编号
+
+startid13=64					//接收管13对应发射管起始编号
+endid13=127						//接收管13对应发射管结束编号
+
+startid14=32					//接收管14对应发射管起始编号
+endid14=95						//接收管14对应发射管结束编号
+
+startid15=0						//接收管15对应发射管起始编号
+endid15=63						//接收管15对应发射管结束编号
+
+startid16=0						//接收管16对应发射管起始编号
+endid16=31						//接收管16对应发射管结束编号
+
+startid17=235					//接收管17对应发射管起始编号
+endid17=271						//接收管17对应发射管结束编号
+
+startid18=197					//接收管18对应发射管起始编号
+endid18=271						//接收管18对应发射管结束编号
+
+startid19=160					//接收管19对应发射管起始编号
+endid19=234						//接收管19对应发射管结束编号
+
+startid20=160					//接收管20对应发射管起始编号
+endid20=196						//接收管20对应发射管结束编号
+
+[16]
+subtype=I3182_15MM		//子型号
+supportlist=HV-I3182_15MM	//支持白板型号列表
+totalrecvnum=20			//接收灯总数
+totalsendnum=364		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=109				//底部发射管结束编号
+rightstart=110			//右边发射管起始编号
+rightend=181				//右边发射管结束编号
+topstart=182				//顶部发射管起始编号
+topend=291					//顶部发射管结束编号
+leftstart=292				//左边发射管起始编号
+leftend=363					//左边发射管结束编号
+
+bottomrecvnum=6			//底部接收灯数目
+rightrecvnum=4			//右边接收灯数目
+toprecvnum=6				//顶部接收灯数目
+leftrecvnum=4				//左边接收灯数目
+
+bottompcbnum=5			//底部PCB数目
+rightpcbnum=3				//右边PCB数目
+toppcbnum=5					//顶部PCB数目
+leftpcbnum=3				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=21			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=22		//底边第二个PCB对应发射管起始编号
+bottompcbend2=43			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=44		//底边第三个PCB对应发射管起始编号
+bottompcbend3=65			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=66		//底边第四个PCB对应发射管起始编号
+bottompcbend4=87			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=88		//底边第五个PCB对应发射管起始编号
+bottompcbend5=109			//底边第五个PCB对应发射管结束编号
+
+rightpcbstart1=110		//右边第一个PCB对应发射管起始编号
+rightpcbend1=133			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=134		//右边第二个PCB对应发射管起始编号
+rightpcbend2=157			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=158		//右边第三个PCB对应发射管起始编号
+rightpcbend3=181			//右边第三个PCB对应发射管结束编号
+
+toppcbstart1=182			//顶部第一个PCB对应发射管起始编号
+toppcbend1=203				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=204			//顶部第二个PCB对应发射管起始编号
+toppcbend2=225				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=226			//顶部第三个PCB对应发射管起始编号
+toppcbend3=247				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=248			//顶部第四个PCB对应发射管起始编号
+toppcbend4=269				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=270			//顶部第五个PCB对应发射管起始编号
+toppcbend5=291				//顶部第五个PCB对应发射管结束编号
+
+leftpcbstart1=292			//左边第一个PCB对应发射管起始编号
+leftpcbend1=315				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=316			//左边第二个PCB对应发射管起始编号
+leftpcbend2=339				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=340			//左边第三个PCB对应发射管起始编号
+leftpcbend3=363				//左边第三个PCB对应发射管结束编号
+
+startid1=270					//接收管1对应发射管起始编号
+endid1=291						//接收管1对应发射管结束编号
+
+startid2=248					//接收管2对应发射管起始编号
+endid2=291						//接收管2对应发射管结束编号
+
+startid3=226					//接收管3对应发射管起始编号
+endid3=269						//接收管3对应发射管结束编号
+
+startid4=204					//接收管4对应发射管起始编号
+endid4=247						//接收管4对应发射管结束编号
+
+startid5=182					//接收管5对应发射管起始编号
+endid5=225						//接收管5对应发射管结束编号
+
+startid6=182					//接收管6对应发射管起始编号
+endid6=203						//接收管6对应发射管结束编号
+
+startid7=340					//接收管7对应发射管起始编号
+endid7=363						//接收管7对应发射管结束编号
+
+startid8=316					//接收管8对应发射管起始编号
+endid8=363						//接收管8对应发射管结束编号
+
+startid9=292					//接收管9对应发射管起始编号
+endid9=339						//接收管9对应发射管结束编号
+
+startid10=292					//接收管10对应发射管起始编号
+endid10=315						//接收管10对应发射管结束编号
+
+startid11=88					//接收管11对应发射管起始编号
+endid11=109						//接收管11对应发射管结束编号
+
+startid12=66					//接收管12对应发射管起始编号
+endid12=109						//接收管12对应发射管结束编号
+
+startid13=44					//接收管13对应发射管起始编号
+endid13=87						//接收管13对应发射管结束编号
+
+startid14=22					//接收管14对应发射管起始编号
+endid14=65						//接收管14对应发射管结束编号
+
+startid15=0						//接收管15对应发射管起始编号
+endid15=43						//接收管15对应发射管结束编号
+
+startid16=0						//接收管16对应发射管起始编号
+endid16=21						//接收管16对应发射管结束编号
+
+startid17=158					//接收管17对应发射管起始编号
+endid17=181						//接收管17对应发射管结束编号
+
+startid18=134					//接收管18对应发射管起始编号
+endid18=181						//接收管18对应发射管结束编号
+
+startid19=110					//接收管19对应发射管起始编号
+endid19=157						//接收管19对应发射管结束编号
+
+startid20=110					//接收管20对应发射管起始编号
+endid20=133						//接收管20对应发射管结束编号
+
+[17]
+subtype=K6075_General		//子型号
+supportlist=HV-K6075_General	//支持白板型号列表
+totalrecvnum=20			//接收灯总数
+totalsendnum=510		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=153				//底部发射管结束编号
+rightstart=154			//右边发射管起始编号
+rightend=254				//右边发射管结束编号
+topstart=255				//顶部发射管起始编号
+topend=408					//顶部发射管结束编号
+leftstart=409				//左边发射管起始编号
+leftend=509					//左边发射管结束编号
+
+bottomrecvnum=6			//底部接收灯数目
+rightrecvnum=4			//右边接收灯数目
+toprecvnum=6				//顶部接收灯数目
+leftrecvnum=4				//左边接收灯数目
+
+bottompcbnum=5			//底部PCB数目
+rightpcbnum=3				//右边PCB数目
+toppcbnum=5					//顶部PCB数目
+leftpcbnum=3				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=31			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=32		//底边第二个PCB对应发射管起始编号
+bottompcbend2=63			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=64		//底边第三个PCB对应发射管起始编号
+bottompcbend3=95			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=96		//底边第四个PCB对应发射管起始编号
+bottompcbend4=127			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=128		//底边第五个PCB对应发射管起始编号
+bottompcbend5=153			//底边第五个PCB对应发射管结束编号
+
+rightpcbstart1=154		//右边第一个PCB对应发射管起始编号
+rightpcbend1=185			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=186		//右边第二个PCB对应发射管起始编号
+rightpcbend2=217			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=218		//右边第三个PCB对应发射管起始编号
+rightpcbend3=254			//右边第三个PCB对应发射管结束编号
+
+toppcbstart1=255			//顶部第一个PCB对应发射管起始编号
+toppcbend1=286				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=287			//顶部第二个PCB对应发射管起始编号
+toppcbend2=318				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=319			//顶部第三个PCB对应发射管起始编号
+toppcbend3=350				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=351			//顶部第四个PCB对应发射管起始编号
+toppcbend4=382				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=383			//顶部第五个PCB对应发射管起始编号
+toppcbend5=408				//顶部第五个PCB对应发射管结束编号
+
+leftpcbstart1=409			//左边第一个PCB对应发射管起始编号
+leftpcbend1=440				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=441			//左边第二个PCB对应发射管起始编号
+leftpcbend2=472				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=473			//左边第三个PCB对应发射管起始编号
+leftpcbend3=509				//左边第三个PCB对应发射管结束编号
+
+startid1=383					//接收管1对应发射管起始编号
+endid1=408						//接收管1对应发射管结束编号
+
+startid2=351					//接收管2对应发射管起始编号
+endid2=408						//接收管2对应发射管结束编号
+
+startid3=319					//接收管3对应发射管起始编号
+endid3=382						//接收管3对应发射管结束编号
+
+startid4=287					//接收管4对应发射管起始编号
+endid4=350						//接收管4对应发射管结束编号
+
+startid5=255					//接收管5对应发射管起始编号
+endid5=318						//接收管5对应发射管结束编号
+
+startid6=255					//接收管6对应发射管起始编号
+endid6=286						//接收管6对应发射管结束编号
+
+startid7=473					//接收管7对应发射管起始编号
+endid7=509						//接收管7对应发射管结束编号
+
+startid8=441					//接收管8对应发射管起始编号
+endid8=509						//接收管8对应发射管结束编号
+
+startid9=409					//接收管9对应发射管起始编号
+endid9=472						//接收管9对应发射管结束编号
+
+startid10=409					//接收管10对应发射管起始编号
+endid10=440						//接收管10对应发射管结束编号
+
+startid11=128					//接收管11对应发射管起始编号
+endid11=153						//接收管11对应发射管结束编号
+
+startid12=96					//接收管12对应发射管起始编号
+endid12=153						//接收管12对应发射管结束编号
+
+startid13=64					//接收管13对应发射管起始编号
+endid13=127						//接收管13对应发射管结束编号
+
+startid14=32					//接收管14对应发射管起始编号
+endid14=95						//接收管14对应发射管结束编号
+
+startid15=0						//接收管15对应发射管起始编号
+endid15=63						//接收管15对应发射管结束编号
+
+startid16=0						//接收管16对应发射管起始编号
+endid16=31						//接收管16对应发射管结束编号
+
+startid17=218					//接收管17对应发射管起始编号
+endid17=254						//接收管17对应发射管结束编号
+
+startid18=186					//接收管18对应发射管起始编号
+endid18=254						//接收管18对应发射管结束编号
+
+startid19=154					//接收管19对应发射管起始编号
+endid19=217						//接收管19对应发射管结束编号
+
+startid20=154					//接收管20对应发射管起始编号
+endid20=185						//接收管20对应发射管结束编号
+
+[18]
+subtype=K6070_General		//子型号
+supportlist=HV-K6070_General	//支持白板型号列表
+totalrecvnum=18			//接收灯总数
+totalsendnum=454		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=129				//底部发射管结束编号
+rightstart=130			//右边发射管起始编号
+rightend=226				//右边发射管结束编号
+topstart=227				//顶部发射管起始编号
+topend=356					//顶部发射管结束编号
+leftstart=357				//左边发射管起始编号
+leftend=453					//左边发射管结束编号
+
+bottomrecvnum=5			//底部接收灯数目
+rightrecvnum=4			//右边接收灯数目
+toprecvnum=5				//顶部接收灯数目
+leftrecvnum=4				//左边接收灯数目
+
+bottompcbnum=4			//底部PCB数目
+rightpcbnum=3				//右边PCB数目
+toppcbnum=4					//顶部PCB数目
+leftpcbnum=3				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=31			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=32		//底边第二个PCB对应发射管起始编号
+bottompcbend2=63			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=64		//底边第三个PCB对应发射管起始编号
+bottompcbend3=95			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=96		//底边第四个PCB对应发射管起始编号
+bottompcbend4=129			//底边第四个PCB对应发射管结束编号
+
+rightpcbstart1=130		//右边第一个PCB对应发射管起始编号
+rightpcbend1=161			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=162		//右边第二个PCB对应发射管起始编号
+rightpcbend2=193			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=194		//右边第三个PCB对应发射管起始编号
+rightpcbend3=226			//右边第三个PCB对应发射管结束编号
+
+toppcbstart1=227			//顶部第一个PCB对应发射管起始编号
+toppcbend1=258				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=259			//顶部第二个PCB对应发射管起始编号
+toppcbend2=290				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=291			//顶部第三个PCB对应发射管起始编号
+toppcbend3=322				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=323			//顶部第四个PCB对应发射管起始编号
+toppcbend4=356				//顶部第四个PCB对应发射管结束编号
+
+leftpcbstart1=357			//左边第一个PCB对应发射管起始编号
+leftpcbend1=388				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=389			//左边第二个PCB对应发射管起始编号
+leftpcbend2=420				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=421			//左边第三个PCB对应发射管起始编号
+leftpcbend3=453				//左边第三个PCB对应发射管结束编号
+
+startid1=323					//接收管1对应发射管起始编号
+endid1=356						//接收管1对应发射管结束编号
+
+startid2=291					//接收管2对应发射管起始编号
+endid2=356						//接收管2对应发射管结束编号
+
+startid3=259					//接收管3对应发射管起始编号
+endid3=322						//接收管3对应发射管结束编号
+
+startid4=227					//接收管4对应发射管起始编号
+endid4=290						//接收管4对应发射管结束编号
+
+startid5=227					//接收管5对应发射管起始编号
+endid5=258						//接收管5对应发射管结束编号
+
+startid6=421					//接收管6对应发射管起始编号
+endid6=453						//接收管6对应发射管结束编号
+
+startid7=389					//接收管7对应发射管起始编号
+endid7=453						//接收管7对应发射管结束编号
+
+startid8=357					//接收管8对应发射管起始编号
+endid8=420						//接收管8对应发射管结束编号
+
+startid9=357					//接收管9对应发射管起始编号
+endid9=388						//接收管9对应发射管结束编号
+
+startid10=96					//接收管10对应发射管起始编号
+endid10=129						//接收管10对应发射管结束编号
+
+startid11=64					//接收管11对应发射管起始编号
+endid11=129						//接收管11对应发射管结束编号
+
+startid12=32					//接收管12对应发射管起始编号
+endid12=95						//接收管12对应发射管结束编号
+
+startid13=0					//接收管13对应发射管起始编号
+endid13=63						//接收管13对应发射管结束编号
+
+startid14=0					//接收管14对应发射管起始编号
+endid14=31						//接收管14对应发射管结束编号
+
+startid15=194						//接收管15对应发射管起始编号
+endid15=226						//接收管15对应发射管结束编号
+
+startid16=162						//接收管16对应发射管起始编号
+endid16=226						//接收管16对应发射管结束编号
+
+startid17=130					//接收管17对应发射管起始编号
+endid17=193						//接收管17对应发射管结束编号
+
+startid18=130					//接收管18对应发射管起始编号
+endid18=161						//接收管18对应发射管结束编号
+
+[19]
+subtype=114inch				//子型号
+supportlist=114inch	//支持白板型号列表
+totalrecvnum=26			//接收灯总数
+totalsendnum=716		//发射灯总数
+mirroring=0					//镜像关系
+
+bottomstart=0				//底部发射管起始编号
+bottomend=233				//底部发射管结束编号
+rightstart=234			//右边发射管起始编号
+rightend=357				//右边发射管结束编号
+topstart=358				//顶部发射管起始编号
+topend=591					//顶部发射管结束编号
+leftstart=592				//左边发射管起始编号
+leftend=715					//左边发射管结束编号
+
+bottomrecvnum=8			//底部接收灯数目
+rightrecvnum=5			//右边接收灯数目
+toprecvnum=8				//顶部接收灯数目
+leftrecvnum=5				//左边接收灯数目
+
+bottompcbnum=7			//底部PCB数目
+rightpcbnum=4				//右边PCB数目
+toppcbnum=7					//顶部PCB数目
+leftpcbnum=4				//左边PCB数目
+
+bottompcbstart1=0			//底边第一个PCB对应发射管起始编号
+bottompcbend1=31			//底边第一个PCB对应发射管结束编号
+bottompcbstart2=32		//底边第二个PCB对应发射管起始编号
+bottompcbend2=63			//底边第二个PCB对应发射管结束编号
+bottompcbstart3=64		//底边第三个PCB对应发射管起始编号
+bottompcbend3=95			//底边第三个PCB对应发射管结束编号
+bottompcbstart4=96		//底边第四个PCB对应发射管起始编号
+bottompcbend4=127			//底边第四个PCB对应发射管结束编号
+bottompcbstart5=128		//底边第五个PCB对应发射管起始编号
+bottompcbend5=159			//底边第五个PCB对应发射管结束编号
+bottompcbstart6=160		//底边第六个PCB对应发射管起始编号
+bottompcbend6=191			//底边第六个PCB对应发射管结束编号
+bottompcbstart7=192		//底边第七个PCB对应发射管起始编号
+bottompcbend7=233			//底边第七个PCB对应发射管结束编号
+
+rightpcbstart1=234		//右边第一个PCB对应发射管起始编号
+rightpcbend1=265			//右边第一个PCB对应发射管结束编号
+rightpcbstart2=266		//右边第二个PCB对应发射管起始编号
+rightpcbend2=297			//右边第二个PCB对应发射管结束编号
+rightpcbstart3=298		//右边第三个PCB对应发射管起始编号
+rightpcbend3=329			//右边第三个PCB对应发射管结束编号
+rightpcbstart4=330		//右边第四个PCB对应发射管起始编号
+rightpcbend4=357			//右边第四个PCB对应发射管结束编号
+
+toppcbstart1=358			//顶部第一个PCB对应发射管起始编号
+toppcbend1=389				//顶部第一个PCB对应发射管结束编号
+toppcbstart2=390			//顶部第二个PCB对应发射管起始编号
+toppcbend2=421				//顶部第二个PCB对应发射管结束编号
+toppcbstart3=422			//顶部第三个PCB对应发射管起始编号
+toppcbend3=453				//顶部第三个PCB对应发射管结束编号
+toppcbstart4=454			//顶部第四个PCB对应发射管起始编号
+toppcbend4=485				//顶部第四个PCB对应发射管结束编号
+toppcbstart5=486			//顶部第五个PCB对应发射管起始编号
+toppcbend5=517				//顶部第五个PCB对应发射管结束编号
+toppcbstart6=518			//顶部第六个PCB对应发射管起始编号
+toppcbend6=549				//顶部第六个PCB对应发射管结束编号
+toppcbstart7=550			//顶部第七个PCB对应发射管起始编号
+toppcbend7=591				//顶部第七个PCB对应发射管结束编号
+
+leftpcbstart1=592			//左边第一个PCB对应发射管起始编号
+leftpcbend1=623				//左边第一个PCB对应发射管结束编号
+leftpcbstart2=624			//左边第二个PCB对应发射管起始编号
+leftpcbend2=655				//左边第二个PCB对应发射管结束编号
+leftpcbstart3=656			//左边第三个PCB对应发射管起始编号
+leftpcbend3=687				//左边第三个PCB对应发射管结束编号
+leftpcbstart4=688			//左边第四个PCB对应发射管起始编号
+leftpcbend4=715				//左边第四个PCB对应发射管结束编号
+
+startid1=550					//接收管1对应发射管起始编号
+endid1=591						//接收管1对应发射管结束编号
+
+startid2=518					//接收管2对应发射管起始编号
+endid2=591						//接收管2对应发射管结束编号
+
+startid3=486					//接收管3对应发射管起始编号
+endid3=549						//接收管3对应发射管结束编号
+
+startid4=454					//接收管4对应发射管起始编号
+endid4=517						//接收管4对应发射管结束编号
+
+startid5=422					//接收管5对应发射管起始编号
+endid5=485						//接收管5对应发射管结束编号
+
+startid6=390					//接收管6对应发射管起始编号
+endid6=453						//接收管6对应发射管结束编号
+
+startid7=358					//接收管7对应发射管起始编号
+endid7=421						//接收管7对应发射管结束编号
+
+startid8=358					//接收管8对应发射管起始编号
+endid8=389						//接收管8对应发射管结束编号
+
+startid9=688					//接收管9对应发射管起始编号
+endid9=715						//接收管9对应发射管结束编号
+
+startid10=656					//接收管10对应发射管起始编号
+endid10=715						//接收管10对应发射管结束编号
+
+startid11=624					//接收管11对应发射管起始编号
+endid11=687						//接收管11对应发射管结束编号
+
+startid12=592					//接收管12对应发射管起始编号
+endid12=655						//接收管12对应发射管结束编号
+
+startid13=592					//接收管13对应发射管起始编号
+endid13=623						//接收管13对应发射管结束编号
+
+startid14=192					//接收管14对应发射管起始编号
+endid14=233						//接收管14对应发射管结束编号
+
+startid15=160						//接收管15对应发射管起始编号
+endid15=233						//接收管15对应发射管结束编号
+
+startid16=128						//接收管16对应发射管起始编号
+endid16=191						//接收管16对应发射管结束编号
+
+startid17=96					//接收管17对应发射管起始编号
+endid17=159						//接收管17对应发射管结束编号
+
+startid18=64					//接收管18对应发射管起始编号
+endid18=127						//接收管18对应发射管结束编号
+
+startid19=32					//接收管19对应发射管起始编号
+endid19=95						//接收管19对应发射管结束编号
+
+startid20=0					//接收管20对应发射管起始编号
+endid20=63						//接收管20对应发射管结束编号
+
+startid21=0					//接收管21对应发射管起始编号
+endid21=31						//接收管21对应发射管结束编号
+
+startid22=330					//接收管22对应发射管起始编号
+endid22=357						//接收管22对应发射管结束编号
+
+startid23=298					//接收管23对应发射管起始编号
+endid23=357						//接收管23对应发射管结束编号
+
+startid24=266					//接收管24对应发射管起始编号
+endid24=329						//接收管24对应发射管结束编号
+
+startid25=234					//接收管25对应发射管起始编号
+endid25=297						//接收管25对应发射管结束编号
+
+startid26=234					//接收管26对应发射管起始编号
+endid26=265						//接收管26对应发射管结束编号

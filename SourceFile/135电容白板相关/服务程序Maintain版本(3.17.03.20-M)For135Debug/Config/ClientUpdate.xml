@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoUpdater>
+  <description>Application AutoUpdate</description>
+  <MacOs>
+	<OsVersion>Mac10-6</OsVersion>
+  </MacOs>
+  <LinuxOs>
+	<OsVersion>Linux</OsVersion>
+  </LinuxOs>
+  <WinOs>
+    <OsVersion>Windows</OsVersion>
+  </WinOs>
+  <Updater>
+	<UpdateConfigUrl>http://58.250.28.27:8000/HhtServer</UpdateConfigUrl>
+	<LastUpdateTime>2011-06-29</LastUpdateTime>
+	<Version>3.0.0.0.4</Version>
+  </Updater>
+  <Files>
+	  <name>board_driver.tar.gz</name>
+	  <md5>0fed96420d23385ad77a73b871202265</md5>
+  </Files>
+</AutoUpdater>

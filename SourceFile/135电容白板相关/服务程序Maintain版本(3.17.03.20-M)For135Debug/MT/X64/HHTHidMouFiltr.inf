@@ -1,0 +1,99 @@
+;Copyright (c) @2011 HHT-Tech ALL RIGHTS RESERVED.
+;
+[Version] 
+Signature = "$Windows NT$" 
+Class=Mouse
+ClassGUID={4D36E96F-E325-11CE-BFC1-08002BE10318}
+Provider=%UASSOFT% 
+;LayoutFile=layout.inf
+DriverVer=08/02/2011,1.0.0.0
+CatalogFile = HHTHid.cat
+
+[Manufacturer] 
+%UASSOFT%=UASSOFT,NTamd64,NTia64
+
+
+[UASSOFT]
+%HIDUASDesc%=HIDUAS_Inst,HID\Vid_1cbe&Pid_0114&Col03
+
+[UASSOFT.NTAmd64]
+%HIDUASDesc%=HIDUAS_Inst,HID\Vid_1cbe&Pid_0114&Col03
+
+[UASSOFT.NTia64]
+%HIDUASDesc%=HIDUAS_Inst,HID\Vid_1cbe&Pid_0114&Col03
+
+;----------------------------------------------------------------------------
+; Install Sections
+;----------------------------------------------------------------------------
+[SourceDisksNames]
+222=%DiskName%
+
+[SourceDisksFiles]
+HHTHidMouFiltr.sys =222
+
+[DestinationDirs] 
+DefaultDestDir = 10,system32\drivers
+
+[HIDUAS_Inst.NT] 
+Include = msmouse.inf
+Needs=HID_Mouse_Inst.NT
+CopyFiles =HIDUAS_Inst.CopyFiles
+
+[HIDUAS_Inst.NT.Services] 
+AddService = HHTHid_ArtvhMouFiltr,,HIDUAS_Service_Inst
+Include = msmouse.inf
+Needs=HID_Mouse_Inst.NT.Services
+
+
+[HIDUAS_Service_Inst] 
+DisplayName = %HIDUASServiceDesc%
+ServiceType = %SERVICE_KERNEL_DRIVER% 
+StartType = %SERVICE_DEMAND_START% 
+ErrorControl = %SERVICE_ERROR_IGNORE% 
+ServiceBinary = %12%\HHTHidMouFiltr.sys
+
+[HIDUAS_Inst.NT.HW]
+AddReg = HIDUAS_Inst.HW.AddReg
+DelReg = HIDUAS_Inst.HW.DelReg
+Include = msmouse.inf
+Needs=HID_Mouse_Inst.NT.HW
+
+[HIDUAS_Inst.HW.AddReg]
+HKR,,"UpperFilters",0x00010000,"HHTHid_ArtvhMouFiltr"
+
+
+[HIDUAS_Inst.HW.DelReg]
+HKR,,"UpperFilters",0x00010000,""
+
+[HIDUAS_Inst.CopyFiles] 
+HHTHidMouFiltr.sys
+
+
+
+
+
+[Strings] 
+
+;  *******Localizable Strings******* 
+UASSOFT= "HHT-Tech"
+HIDUASDesc= "HHT-Tech HHTHid Mouse"
+HIDUASServiceDesc= "HHT-Tech HHTHid Mouse Driver Service"
+DiskName = "HHT-Tech HHTHid Mouse Installation Disk"
+
+
+;  *******Non Localizable Strings******* 
+
+SERVICE_BOOT_START = 0x0 
+SERVICE_SYSTEM_START = 0x1 
+SERVICE_AUTO_START = 0x2 
+SERVICE_DEMAND_START = 0x3 
+SERVICE_DISABLED = 0x4 
+
+SERVICE_KERNEL_DRIVER = 0x1 
+SERVICE_ERROR_IGNORE = 0x0 
+SERVICE_ERROR_NORMAL = 0x1 
+SERVICE_ERROR_SEVERE = 0x2 
+SERVICE_ERROR_CRITICAL = 0x3 
+
+REG_EXPAND_SZ = 0x00020000 
+REG_DWORD = 0x00010001 

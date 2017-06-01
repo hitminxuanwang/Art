@@ -1,0 +1,131 @@
+;Copyright (c) @2011 HHT-Tech ALL RIGHTS RESERVED.
+;
+[Version]
+Signature="$CHICAGO$"
+Class=HIDClass
+ClassGuid={745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Provider=%VENDOR%
+CatalogFile=HHTHid.cat
+LayoutFile=layout.inf
+DriverVer=08/02/2011,1.0.0.1
+
+
+[SourceDisksFiles]
+HHTHid.sys = 99
+
+
+[SourceDisksNames]
+99 = %DISK_NAME%,,,
+
+[DestinationDirs]
+CopyFilesSYS = 12     ; should it be 10 to take care of 98 stuff??????
+CopyFilesDLL = 11     ; %SystemRoot%\system or system32 - 98 or Win2000
+CopyFilesSYS_98 = 10, system32/drivers
+
+[Manufacturer]
+%VENDOR%=Vendor, NTx86, NTia64, NTamd64
+
+; For Win2K
+[Vendor]
+%VHidMini%    = VHidMini.Inst, {C3BF46B7-AECF-4628-B748-25B93E654F32}\HID_DEVICE
+%VHidDevice%  = VHidDevice.Inst,  HID\HHTHidDevice
+
+; For XP and later
+[Vendor.NTx86]
+%VHidMini%    = VHidMini.Inst, {C3BF46B7-AECF-4628-B748-25B93E654F32}\HID_DEVICE
+%VHidDevice%  = VHidDevice.Inst,  HID\HHTHidDevice
+
+[Vendor.NTia64]
+%VHidMini%    = VHidMini.Inst, {C3BF46B7-AECF-4628-B748-25B93E654F32}\HID_DEVICE
+%VHidDevice%  = VHidDevice.Inst,  HID\HHTHidDevice
+
+[Vendor.NTamd64]
+%VHidMini%    = VHidMini.Inst, {C3BF46B7-AECF-4628-B748-25B93E654F32}\HID_DEVICE
+%VHidDevice%  = VHidDevice.Inst,  HID\HHTHidDevice
+
+
+[ControlFlags]
+ExcludeFromSelect  = HID\HHTHidDevice
+
+;===============================================================
+;   VHidMini (Root Enumerated Hid Device) install section
+;===============================================================
+[VHidMini.Inst]
+CopyFiles = CopyFilesSYS_98, CopyFilesDLL
+AddReg    = VHidMini_98me.AddReg
+
+[VHidMini.Inst.NT]
+CopyFiles = CopyFilesSYS, CopyFilesDLL
+
+[VHidMini.Inst.NT.HW]
+AddReg = VHidMini_Parameters.AddReg 
+
+[VHidMini.Inst.NT.Services]
+AddService = HHTHid,0x00000002,vhidmini_Service_Inst,
+
+[CopyFilesSYS]
+HHTHid.sys
+;HidClass.sys
+;HidParse.sys
+
+
+[CopyFilesSYS_98]
+HHTHid.sys
+;HidClass.sys
+;HidParse.sys
+
+[CopyFilesDLL]
+;Hid.dll
+
+[VHidMini_Parameters.AddReg]
+
+[VHidMini_98me.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,"HHTHid.sys"
+
+[vhidmini_Service_Inst]
+DisplayName    = %VHidMini%
+ServiceType    = %SERVICE_KERNEL_DRIVER% 
+StartType      = %SERVICE_DEMAND_START% 
+ErrorControl   = %SERVICE_ERROR_IGNORE% 
+ServiceBinary  = %12%\HHTHid.sys 
+
+;===============================================================
+;   VHidDevice (Virtual Hid Device) install section
+; - Only a Null service is installed.
+;===============================================================
+[VHidDevice.Inst]
+
+[VHidDevice.Inst.NT]
+
+[VHidDevice.Inst.NT.Services]
+AddService = ,0x00000002,   ; NULL Service
+
+
+;================================================================
+[Strings] 
+;  *******Localizable Strings******* 
+VENDOR         = "HHT-Tech" 
+VHidMini       = "HHT-Tech Hid Device" 
+VHidDevice     = "HHT-Tech Virtual Hid Device" 
+DISK_NAME      = "HHT-Tech Virtual Hid Device Install Disk"
+;  *******Non Localizable Strings******* 
+
+SERVICE_BOOT_START     = 0x0 
+SERVICE_SYSTEM_START   = 0x1 
+SERVICE_AUTO_START     = 0x2 
+SERVICE_DEMAND_START   = 0x3 
+SERVICE_DISABLED       = 0x4 
+
+SERVICE_KERNEL_DRIVER  = 0x1 
+SERVICE_ERROR_IGNORE   = 0x0 
+SERVICE_ERROR_NORMAL   = 0x1 
+SERVICE_ERROR_SEVERE   = 0x2 
+SERVICE_ERROR_CRITICAL = 0x3 
+
+REG_EXPAND_SZ          = 0x00020000 
+REG_DWORD              = 0x00010001 
+REG_MULTI_SZ           = 0x00010000
+REG_BINARY             = 0x00000001
+REG_SZ                 = 0x00000000
+
